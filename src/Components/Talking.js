@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-function Certified_Professional_Coder() {
+function Talking() {
     const [isOpen1, setisOpen1] = useState(false);
     const [isOpen2, setisOpen2] = useState(false);
     const toggleServices1 = () => {
@@ -10,57 +10,61 @@ function Certified_Professional_Coder() {
     const toggleServices2 = () => {
         setisOpen2(!isOpen2);
         setisOpen1(false);
+
     };
+
     return (
         <div>
             <div className="grid place-items-center mt-5">
                 <div className="flex flex-col md:flex-row 2xl:w-8/12 xl:w-8/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center gap-8">
                     <div className="2xl:w-1/4 xl:w-1/4 lg:1/3 md:w-1/3 sm:w-full w-full">
                         <div className="bg-slate-200 p-1 hover:shadow-2xl">
-                            <div className="relative inline-block text-left bg-gray-200 w-full">
-                                <p className="pl-5 py-2  bg-teal-500 text-white text-xl">Certified Professional Coder</p>
+                            <div className="relative inline-block text-left bg-gray-300 w-full">
+                                <p className="p-2 bg-teal-500 text-white text-xl">Certified Professional Coder</p>
+                                <Link to="/Certified_Professional_Coder" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
+                                >CPC Overview</Link>
                                 <hr className="h-1 bg-white" />
-                                <Link to="./Fundamentals_of_medicine_course" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300">
-                                    CPC certification overview
-                                </Link>
-                                <p className="pl-5 py-2 text-md text-gray-700"></p>
-                                <hr className="h-1 bg-white" />
-                                <button onClick={toggleServices1} className="text-gray-700 hover:text-gray-900 focus:outline-none h-12 pl-5">
-                                    Prepare for the exam
+                                <button onClick={toggleServices1} className="text-gray-700 hover:text-gray-900 focus:outline-none h-12">
+                                    Prepare for the Exam
                                 </button>
                                 {isOpen1 && (
                                     <div className="origin-top-right absolute right-0 mt-2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
-                                        <div className="2xl:w-[19rem] xl:w-72 lg:w-96 md:w-60 sm:w-[35rem] w-[28rem] mx-auto">
-                                            <Link to="./Fundamentals_of_medicine_course" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300">
-                                            Essentials
-                                            </Link>
-                                            <Link to="./Certified_Professional_Coder" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300">
-                                            CPC Preparation Course
-                                            </Link>
-                                            
+                                        {/* Dropdown content goes here */}
+                                        <div className="2xl:w-72 xl:w-72 lg:w-96 md:w-60 sm:w-[35rem] w-[28rem] mx-auto">
                                             <Link
-                                                href="ss"
+                                                to="./Prerequisites"
                                                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
-                                            >
-                                                Practice exams
+                                            >  Prerequisites
                                             </Link>
                                             <Link
-                                                href="ss"
+                                                to="IdentifyAreas"
                                                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
                                             >
                                                 Areas of weakness
                                             </Link>
                                             <Link
-                                                href="ss"
+                                                to="ss"
                                                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
                                             >
-                                                CPC study guide
+                                                Practice Exams
                                             </Link>
                                             <Link
-                                                href="ss"
+                                                to="ss"
                                                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
                                             >
-                                                CPC exam review
+                                                Identify Areas of Weakness
+                                            </Link>
+                                            <Link
+                                                to="ss"
+                                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
+                                            >
+                                                Study Guide
+                                            </Link>
+                                            <Link
+                                                to="ss"
+                                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
+                                            >
+                                                Exam Review
                                             </Link>
                                         </div>
                                     </div>
@@ -68,42 +72,48 @@ function Certified_Professional_Coder() {
                             </div>
                             <hr className="h-1 bg-white" />
                             <Link
-                                href="ss"
-                                className="block px-4 py-2 text-md text-gray-700 hover:bg-gray-300"
+                                to="./Talking"
+                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
                             >
-                                Taking the exam
+                                Taking the Exam
                             </Link>
                             <hr className="h-1 bg-white" />
-                            <div className="relative inline-block text-left bg-gray-200 w-full">
-                                <button onClick={toggleServices2} className="text-gray-700 hover:text-gray-900 focus:outline-none h-12 pl-5">
-                                    After the certification
+                            <div className="relative inline-block text-left bg-gray-300 w-full">
+                                <button onClick={toggleServices2} className="text-gray-700 hover:text-gray-900 focus:outline-none h-12">
+                                    After the Certification
                                 </button>
                                 {isOpen2 && (
                                     <div className="origin-top-right absolute right-0 mt-2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
                                         <div className="2xl:w-72 xl:w-72 lg:w-96 md:w-60 sm:w-[35rem] w-[28rem] mx-auto">
                                             <Link
-                                                href="ss"
+                                                to="ss"
                                                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
                                             >
-                                                Complete your apprenticeship
+                                                Complete Your Apprenticeship
                                             </Link>
                                             <Link
-                                                href="ss"
+                                                to="ss"
                                                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
                                             >
-                                                Network with AAPC members
+                                                Network with AAPC Members
                                             </Link>
                                             <Link
-                                                href="ss"
+                                                to="ss"
                                                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
                                             >
-                                                Maintain your certification
+                                                Maintain Your Certification
                                             </Link>
                                             <Link
-                                                href="ss"
+                                                to="ss"
                                                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
                                             >
-                                                Find your dream job
+                                                Find Your Dream Job
+                                            </Link>
+                                            <Link
+                                                to="ss"
+                                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
+                                            >
+                                                Advance Your Career
                                             </Link>
                                         </div>
                                     </div>
@@ -113,53 +123,7 @@ function Certified_Professional_Coder() {
                         </div>
                     </div>
                     <div className="2xl:w-3/4 xl:w-3/4 lg:3/4 md:w-2/3 sm:w-full w-full">
-                        <h2 className='text-4xl'>Certified Professional Coder (CPC)® certification</h2>
-                        <div className="grid place-items-center mt-10">
-                            <div className="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full w-full justify-center mx-auto ">
-                                <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 w-100 gap-8">
-                                    <div className="bg-slate-200 p-5">
-                                        <p className='text-center'>Training</p>
-                                        <h1 className="text-3xl mb-5 text-center">Need exam prep training?</h1>
-                                        <ul className='px-5'>
-                                            <li className='list-disc'>Self-paced and virtual instructor-led course options</li>
-                                            <li className='list-disc'>Everything you need to prepare and take the CPC exam.</li>
-                                        </ul>
-                                        <p className='text-center font-bold'>STARTING AT $2,999</p>
-                                        <div className='mt-5'>
-                                            <Link to="./Package" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-32 mt-36 rounded">
-                                                ENROLL NOW
-                                            </Link>
-                                        </div>
-                                       
-                                    </div>
-                                    <div className="bg-slate-200 p-5">
-                                        <p className='text-center'>EXAM</p>
-                                        <h1 className="text-3xl mb-5 text-center">Need exam prep training?</h1>
-                                        <ul className='px-5'>
-                                            <li className='list-disc'>Self-paced and virtual instructor-led course options</li>
-                                            <li className='list-disc'>Everything you need to prepare and take the CPC exam.</li>
-                                        </ul>
-                                        <p className='text-center font-bold'>STARTING AT $2,999</p>
-                                        <div className='mt-5'>
-                                            <Link to="./Package" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-32 mt-36 rounded">
-                                                ENROLL NOW
-                                            </Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="grid place-items-center mt-10">
-                            <div className="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full w-full justify-center mx-auto ">
-                                <p className='text-justify'>The Certified Professional Coder (CPC) is the gold standard for medical coding in a physician office setting.
-                                    The CPC certification exam tests the competencies required to perform the job of a professional coder who
-                                    specializes in coding for services performed by physicians and non-physician providers (eg, nurse practitioners
-                                    and physician assistants). Individuals who earn the CPC credential have proven expertise in physician/non-physician
-                                    provider documentation review, abstract professional provider encounters, coding proficiency with CPT®, HCPCS Level
-                                    II, ICD-10-CM, and compliance and regulatory requirements for physician services.</p>
-                            </div>
-                        </div>
-                        <h4 className='text-xl font-semibold'>CPC Exam Preparation Course</h4>
+                        <h2 className='text-4xl font-semibold'>CPC Exam Preparation Course</h2>
                         <div className="mb-6 flex leading-5 text-gray-700">
                             <div className="pt-1 mr-4"><svg aria-hidden="true" focusable="false" data-prefix="far"
                                 data-icon="hundred-points"
@@ -341,48 +305,15 @@ function Certified_Professional_Coder() {
                                 </div>
                             </div>
                         </div>
-                        <div className="grid place-items-center mt-10">
-                            <div className="2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full w-full justify-center mx-auto ">
-                                <h3 className='text-3xl font-semibold mb-3'>Competencies proven with CPC credential include</h3>
-                                <ul className='text-md list-disc pl-10 mb-10'>
-                                    <li>The Certified Professional Coder (CPC) is the gold standard for medical coding</li>
-                                    <li>in a physician office setting.The CPC certification exam </li>
-                                    <li>tests the competencies required to perform the job of a professional coder who </li>
-                                    <li>specializes in coding for services performed by physicians and non-physician providers</li>
-                                    <li>eg, nurse practitioners and physician assistants. Individuals who earn the CPC credential have </li>
-                                    <li>proven expertise in physician/non-physician provider documentation review, abstract</li>
-                                    <li> professional provider encounters, coding proficiency with CPT®, HCPCS Level</li>
-                                    <li>II, ICD-10-CM, and compliance and regulatory requirements for physician services.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="grid place-items-center mt-5 mb-10">
-                <div className="flex flex-col md:flex-row 2xl:w-8/12 xl:w-8/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center gap-8">
-                    <div className="sm:w-full w-full">
-                        <div className="bg-darkble h-48">
-                            <div className="pt-5">
-                                <p className="text-white sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-4xl text-center">
-                                    Not sure which certification is best for you?</p>
-                                <div className='text-center'>
-                                    <button className="px-12 py-3 mt-5 text-center bg-blue-400">
-                                        <a href="https://tailwindui.com/documentation"
-                                            className=" text-xl text-white">TALK TO A CAREER COUNSELOR
-                                        </a>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
     )
 }
 
-export default Certified_Professional_Coder
 
-
+export default Talking
 

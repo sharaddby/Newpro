@@ -21,7 +21,7 @@ function Cpc() {
                         <div className="bg-slate-200 p-1 hover:shadow-2xl">
                             <div className="relative inline-block text-left bg-gray-300 w-full">
                                 <p className="p-2 bg-teal-500 text-white text-xl">Certified Professional Coder</p>
-                                <Link to="ss" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
+                                <Link to="/Certified_Professional_Coder" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
                                 >CPC Overview</Link>
                                 <hr className="h-1 bg-white" />
                                 <button onClick={toggleServices1} className="text-gray-700 hover:text-gray-900 focus:outline-none h-12">
@@ -72,7 +72,7 @@ function Cpc() {
                             </div>
                             <hr className="h-1 bg-white" />
                             <Link
-                                to="ss"
+                                to="./Talking"
                                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
                             >
                                 Taking the Exam

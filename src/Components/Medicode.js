@@ -991,15 +991,15 @@ function Medicode() {
         },
         {
             label: 'FAQs',
-            content: <div>Content for Tab 6</div>,
+            content: <div>FAQs</div>,
         },
         {
             label: 'CEU Information - Members',
-            content: <div>Content for Tab 6</div>,
+            content: <div>CEU Information - Members</div>,
         },
         {
             label: 'CEU Information - Vendors',
-            content: <div>Content for Tab 6</div>,
+            content: <div>CEU Information - Vendors</div>,
         },
     ];
     return (

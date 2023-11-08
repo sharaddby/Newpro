@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en_us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Aabhyasa Inc.</title>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="public/css/index.css">
+</head>
+
+<body class="font-sans antialiased">
+    <div class="top-nav">
+        <a href="https://aabhyasainc.com" /><img class="app-logo" src="public/images/logo.jpg"></a>
+        <span class="top-menu-toggle-button" id="menu-toggle-button">
+            <span class="top-menu-toggle-bar"></span>
+        </span>
+        <div class="app-contact-container" id="top-menu-container">
+            <span><a href="https://aabhyasainc.com/career.html">Career</a></span>
+            <span><i class="fas fa-envelope"></i> info@aabhyasainc.com</span>
+        </div>
+    </div>
+    <div class="app-body">
+        <div class="career-container">
+            <h2>Positions are open for following job titles :</h2>
+            <p><strong>Job Type</strong> : Part Time / Full Time</p>
+            <p><strong>Year(s) of Experience</strong> : 1year - 3years</p>
+            <br />
+            <p>Send your application on info@aabhyasainc.com</p>
+            <div class="hr"></div>
+            <div class="job-title-container">
+                <div class="job-title">
+                    <img class="job-image" src="public/image/seoexecutive.jpg" />
+                    <h3>SEO Executive</h3>
+                </div>
+                <div class="job-title">
+                    <img class="job-image" src="public/image/medical_content_specialist.jpg" />
+                    <h3>Medical Content Specialist</h3>
+                </div>
+                <div class="job-title">
+                    <img class="job-image" src="public/image/hr_content_specialist.jpg" />
+                    <h3>HR Content Specialist</h3>
+                </div>
+                <div class="job-title">
+                    <img class="job-image" src="public/image/Banking.jpg" />
+                    <h3>Banking & Finance Content Specialist</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="app-footer">
+        <div class="footer-app-info">
+            <p class="app-address">
+                <a href="contact.php">Contact Us</a>
+            </p>
+            <p>
+                <span><i class="fas fa-envelope"></i> info@aabhyasainc.com</span>
+            </p>
+        </div>
+        <div class="footer-app-copyright">
+            <p> All right reserved <i class="far fa-copyright"></i> Aabhyasa Inc. </p>
+        </div>
+
+        <script>
+            var menuBtn = document.getElementById('menu-toggle-button');
+            var topMenuContainer = document.getElementById('top-menu-container');
+            var menuOpen = false;
+            menuBtn.addEventListener('click', () => {
+                if (!menuOpen) {
+                    menuBtn.classList.add('open');
+                    topMenuContainer.classList.add('open');
+                    menuOpen = true;
+                } else {
+                    menuBtn.classList.remove('open');
+                    topMenuContainer.classList.remove('open');
+                    menuOpen = false;
+                }
+            });
+        </script>
+    </div>
+</body>
+
+</html>

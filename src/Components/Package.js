@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Packagetab from './Packagetab';
 function Package() {
   const [isChecked, setIsChecked] = useState(false);
@@ -253,10 +254,10 @@ function Package() {
               checked={isChecked}
               onChange={toggleCheckbox}
             />
-             <p>Required Code Books</p>
-             <p>Exam Book Bundle (CPT® + HCPCS + ICD-10-CM)</p>
-             <p>$259.99 (Members: $229.99 )</p>
-             <p>FREE with training package</p> 
+            <p>Required Code Books</p>
+            <p>Exam Book Bundle (CPT® + HCPCS + ICD-10-CM)</p>
+            <p>$259.99 (Members: $229.99 )</p>
+            <p>FREE with training package</p>
           </div>
         </div>
       </div>
@@ -269,17 +270,17 @@ function Package() {
               checked={isChecked}
               onChange={toggleCheckbox}
             />
-             <p>Recommended Prerequisites Online Medical Terminology + Anatomy Bundle + Pathophysiology Bundle
+            <p>Recommended Prerequisites Online Medical Terminology + Anatomy Bundle + Pathophysiology Bundle
             </p>
-             <p>$1,842.90 (Members: $995.00)</p>
-            </div>
+            <p>$1,842.90 (Members: $995.00)</p>
+          </div>
         </div>
       </div>
       <div class="grid place-items-center">
         <div class="2xl:w-8/12 xl:8/12 lg:8/12 w-full justify-center mx-auto">
           <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 w-100 bg-gray-100">
-            <p className='text-md pl-10'>Enroll now, pay over time. We offer a variety of options to finance your 
-            education with modest down payments and easy monthly installments. Review your options at checkout.</p>
+            <p className='text-md pl-10'>Enroll now, pay over time. We offer a variety of options to finance your
+              education with modest down payments and easy monthly installments. Review your options at checkout.</p>
           </div>
         </div>
       </div>
@@ -298,8 +299,12 @@ function Package() {
               <p>Add-ons:</p>
               <p>Member Discount:</p>
               <p className='text-red-400'>Total Member Price through Nov 30th :</p>
-              <button className="bg-blue-500 hover:bg-blue-500 text-white font-bold py-2 px-8 rounded my-5"
-              >ENROLL NOW</button>
+              <div className='mt-5'>
+                <Link to="./Cart" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 my-36 rounded">
+                  ENROLL NOW
+                </Link>
+              </div>
+
             </div>
             <div className='bg-gray-100'>
               <p>$10,469.53</p>
@@ -307,7 +312,7 @@ function Package() {
               <p>-$6,794.53</p>
               <p>$3,675.00</p>
             </div>
-         </div>
+          </div>
         </div>
       </div>
       <div class="grid place-items-center">
@@ -320,7 +325,7 @@ function Package() {
       <div class="grid place-items-center">
         <div class="2xl:w-8/12 xl:8/12 lg:8/12 w-full justify-center mx-auto">
           <div class="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 w-100">
-            <Packagetab/>
+            <Packagetab />
           </div>
         </div>
       </div>

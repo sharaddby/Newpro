@@ -120,7 +120,7 @@ const Fundamentals_of_medicine_course = () => {
                                         <p>You must read the course/system requirements, before enrolling.</p>
                                         <p>Online <span className="text-darksky">Medical Terminology + Anatomy </span>Bundle - $1,209.90 (<span className="text-darksky">Members:</span><span className="text-red-500"> $695.00:)
                                             *Members save $514.90 over list price</span></p>
-                                        <div className="flex flex-col space-y-2">
+                                        <div className="flex flex-col space-y-2 mb-5">
                                             <label className="inline-flex items-center">
                                                 <input
                                                     type="checkbox" className="form-checkbox h-5 w-5"
@@ -128,9 +128,7 @@ const Fundamentals_of_medicine_course = () => {
                                                 <span className="ml-2">Not an AAPC Member? Add AAPC Student Membership for $140 to get member prices.</span>
                                             </label>
                                         </div>
-                                        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-5 rounded">
-                                            ENROLL
-                                        </button>
+                                        <a href="./Cart" className="text-lg bg-blue-500 p-2 text-white">ENROLL</a>
                                         <p className="py-5 px-5 mt-5 bg-slate-300">Purchase of Medical Terminology & Anatomy courses must be made in same transaction to receive $95 instant discount.</p>
                                         <p>Both the Anatomy and Medical Terminology Courses are recommended for students taking any coding or billing course. These 2 courses must be completed within a 4 month period, however AAPC allows for an additional 2 month grace period, giving you a full 6 months access from the date of purchase.
                                         </p>

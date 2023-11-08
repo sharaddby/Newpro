@@ -9,9 +9,9 @@ const Tab = ({ tabs }) => {
         <div className="grid place-items-center mt-5">
             <div className="flex flex-col md:flex-row 2xl:w-8/12 xl:w-8/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center gap-8">
                 <div className="flex flex-col space-x-2  2xl:w-1/4 xl:w-1/4 lg:1/3 md:w-1/3 sm:w-full w-full">
-                    <div className='ml-2'>
+                    {/* <div className='ml-2'>
                         <h1 className='text-center bg-blue-500 h-12 text-white pt-3 mb-1 w-76'>Continuing Education</h1>
-                    </div>
+                    </div> */}
                     {tabs.map((tab, index) => (
                         <button
                             key={index}

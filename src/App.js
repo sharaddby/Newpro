@@ -51,6 +51,11 @@ import Ceducation from './Components/Ceducation';
 import Ebrief_build from './Components/Ebrief_build';
 import Package from './Components/Package';
 import Cart from './Components/Cart';
+import Nexted from './Components/Nexted';
+import Talking from './Components/Talking';
+import medical_coding_education from './Components/medical_coding_education';
+import Online_icd from './Components/Online_icd';
+import Online_icd_10 from './Components/Online_icd_10';
 const App = () => {
   return (
     <Router>
@@ -106,7 +111,12 @@ const App = () => {
             <Route path="/Ebrief_build" component={Ebrief_build}></Route>
             <Route path="/Package" component={Package}></Route>
             <Route path="/Cart" component={Cart}></Route>
-           </Switch>
+            <Route path="/Nexted" component={Nexted}></Route>
+            <Route path="/Talking" component={Talking}></Route>
+            <Route path="/medical_coding_education" component={medical_coding_education}></Route>
+            <Route path="/Online_icd" component={Online_icd}></Route>
+            <Route path="/Online_icd_10" component={Online_icd_10}></Route>
+          </Switch>
         <Footer/>
       </div>
     </Router>
