@@ -33,7 +33,7 @@ const Even = () => {
                                 <Link to="/Ans" className="block py-2 text-md text-gray-700 hover:text-red-500">Using PCS Tables</Link>
                                 <Link to="/Ans" className="block py-2 text-md text-gray-700 hover:text-red-500">Build-A-PCS Code</Link>
                             </div>
-                            <Link to="Blog" className="block px-4 py-2 text-md text-gray-700 hover:bg-gray-300">
+                            <Link to="./Online_icd_10" className="block px-4 py-2 text-md hover:bg-gray-300 text-red-500">
                                 ICD-10 Documentation Example
                             </Link>
                             <Link to="Blog" className="block px-4 py-2 text-md text-gray-700 hover:bg-gray-300">
@@ -74,11 +74,12 @@ const Even = () => {
                                 <p> 3. Cervical somatic dysfunction</p>
                                 <p><b>P</b>:The plan at this time is to send her for physical therapy, three times a week for four weeks for cervical soft tissue muscle massage, as well as upper dorsal. We’ll recheck her in one month, sooner if needed.</p>
                                 <p className='text-md'>Online curriculum will include:</p>
+                                <p class="text-gray-600 hover:text-blue-500">This is a paragraph with a hover effect.</p>
                             </div>
                             <div className='py-2 bg-gray-300'>
                                 <h6 className='text-lg text-center font-semibold'>ICD-10-CM Coding</h6>
                             </div>
-                            <table className="border-collapse border border-slate-400">
+                            <table className="border-collapse border border-slate-400 bg-white">
                                  <tbody>
                                     <tr>
                                         <td className="border border-slate-300 sm:w-2/12 text-center">S06.0X1A</td>
@@ -114,6 +115,20 @@ const Even = () => {
                                 <p className='text-lg'><b className='px-5'>Note:</b>Requirements for reporting external cause codes may vary by state, payer, and organization. Be sure to follow the
                                  rules that apply to your claim.</p>
                             </div>
+                            <div className='py-2 bg-gray-300'>
+                                <h6 className='text-lg font-semibold pl-5'>ICD-10 Code Conversion</h6>
+                            </div>
+                            <div className='py-2 bg-gray-300'>
+                                <label class="inline-flex items-center mx-5">
+                                    <input type="checkbox" class="form-checkbox text-indigo-600 h-5 w-5"/>
+                                    <span class="ml-2 text-gray-700">ICD-9 to ICD-10</span>
+                                </label>
+                                <label class="inline-flex items-center">
+                                    <input type="checkbox" class="form-checkbox text-indigo-600 h-5 w-5"/>
+                                    <span class="ml-2 text-gray-700">ICD-10 to ICD-9</span>
+                                </label>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
