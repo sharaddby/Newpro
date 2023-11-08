@@ -50,6 +50,7 @@ import Blogdtl from './Components/Blogdtl';
 import Ceducation from './Components/Ceducation';
 import Ebrief_build from './Components/Ebrief_build';
 import Package from './Components/Package';
+import Cart from './Components/Cart';
 const App = () => {
   return (
     <Router>
@@ -104,6 +105,7 @@ const App = () => {
             <Route path="/Ceducation" component={Ceducation}></Route>
             <Route path="/Ebrief_build" component={Ebrief_build}></Route>
             <Route path="/Package" component={Package}></Route>
+            <Route path="/Cart" component={Cart}></Route>
            </Switch>
         <Footer/>
       </div>
