@@ -5,7 +5,7 @@ const tabs = [
         label: 'Overview',
         content: <div>
             <div className="sm:w-11/12 w-100 justify-center mx-auto">
-                <h4 className="text-2xl text-green-900 font-bold">Medical Coding Online Store</h4>
+                <h4 className="text-2xl text-green-900 font-bold">edical Coding Online Store</h4>
                 <h4 className="text-2xl mt-5">Medical Coding Book Bundles</h4>
                 <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                     <div className="bg-white mt-2">
@@ -113,7 +113,7 @@ const tabs = [
         label: 'Bundles',
         content: <div>
             <div className="sm:w-11/12 w-100 justify-center mx-auto">
-                <h4 className="text-2xl text-green-900 font-bold">Medical Coding Online Store</h4>
+                <h4 className="text-2xl text-green-900 font-bold">dical Coding Online Store</h4>
                 <h4 className="text-2xl mt-5">Medical Coding Book Bundles</h4>
                 <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                     <div className="bg-white mt-2">
@@ -221,7 +221,7 @@ const tabs = [
         label: 'Bundles + Codify by AAPC',
         content: <div>
             <div className="sm:w-11/12 w-100 justify-center mx-auto">
-                <h4 className="text-2xl text-green-900 font-bold">Medical Coding Online Store</h4>
+                <h4 className="text-2xl text-green-900 font-bold">ical Coding Online Store</h4>
                 <h4 className="text-2xl mt-5">Medical Coding Book Bundles</h4>
                 <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                     <div className="bg-white mt-2">
@@ -329,7 +329,7 @@ const tabs = [
         label: 'ICD-10',
         content: <div>
             <div className="sm:w-11/12 w-100 justify-center mx-auto">
-                <h4 className="text-2xl text-green-900 font-bold">Medical Coding Online Store</h4>
+                <h4 className="text-2xl text-green-900 font-bold">cal Coding Online Store</h4>
                 <h4 className="text-2xl mt-5">Medical Coding Book Bundles</h4>
                 <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                     <div className="bg-white mt-2">
@@ -437,7 +437,7 @@ const tabs = [
         label: 'CPT',
         content: <div>
             <div className="sm:w-11/12 w-100 justify-center mx-auto">
-                <h4 className="text-2xl text-green-900 font-bold">Medical Coding Online Store</h4>
+                <h4 className="text-2xl text-green-900 font-bold">al Coding Online Store</h4>
                 <h4 className="text-2xl mt-5">Medical Coding Book Bundles</h4>
                 <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                     <div className="bg-white mt-2">
@@ -545,7 +545,7 @@ const tabs = [
         label: 'HCPCS',
         content: <div>
             <div className="sm:w-11/12 w-100 justify-center mx-auto">
-                <h4 className="text-2xl text-green-900 font-bold">Medical Coding Online Store</h4>
+                <h4 className="text-2xl text-green-900 font-bold">l Coding Online Store</h4>
                 <h4 className="text-2xl mt-5">Medical Coding Book Bundles</h4>
                 <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                     <div className="bg-white mt-2">
@@ -653,7 +653,7 @@ const tabs = [
         label: 'Coders Specialty Guides',
         content: <div>
             <div className="sm:w-11/12 w-100 justify-center mx-auto">
-                <h4 className="text-2xl text-green-900 font-bold">Medical Coding Online Store</h4>
+                <h4 className="text-2xl text-green-900 font-bold">Coding Online Store</h4>
                 <h4 className="text-2xl mt-5">Medical Coding Book Bundles</h4>
                 <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                     <div className="bg-white mt-2">
@@ -761,7 +761,7 @@ const tabs = [
         label: 'Reference Guides',
         content: <div>
             <div className="sm:w-11/12 w-100 justify-center mx-auto">
-                <h4 className="text-2xl text-green-900 font-bold">Medical Coding Online Store</h4>
+                <h4 className="text-2xl text-green-900 font-bold">oding Online Store</h4>
                 <h4 className="text-2xl mt-5">Medical Coding Book Bundles</h4>
                 <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                     <div className="bg-white mt-2">
@@ -869,7 +869,7 @@ const tabs = [
         label: 'Medical Coding Books FAQs',
         content: <div>
             <div className="sm:w-11/12 w-100 justify-center mx-auto">
-                <h4 className="text-2xl text-green-900 font-bold">Medical Coding Online Store</h4>
+                <h4 className="text-2xl text-green-900 font-bold">ing Online Store</h4>
                 <h4 className="text-2xl mt-5">Medical Coding Book Bundles</h4>
                 <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                     <div className="bg-white mt-2">
@@ -977,7 +977,7 @@ const tabs = [
         label: 'Medical Coding Book Updates',
         content: <div>
             <div className="sm:w-11/12 w-100 justify-center mx-auto">
-                <h4 className="text-2xl text-green-900 font-bold">Medical Coding Online Store</h4>
+                <h4 className="text-2xl text-green-900 font-bold">ng Online Store</h4>
                 <h4 className="text-2xl mt-5">Medical Coding Book Bundles</h4>
                 <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                     <div className="bg-white mt-2">
@@ -1085,7 +1085,7 @@ const tabs = [
         label: 'Medical Coding eNewsletters',
         content: <div>
             <div className="sm:w-11/12 w-100 justify-center mx-auto">
-                <h4 className="text-2xl text-green-900 font-bold mb-5">Medical Coding Online Store</h4>
+                <h4 className="text-2xl text-green-900 font-bold mb-5">g Online Store</h4>
                 <img src="../hero.png" alt="gh" className="w-full" />
                 <p className="">Get insights into the code changes that affect you, learn from case studies to improve revenue,
                      and discover trouble-shooting strategies to overcome your reporting challenges with AAPC's 
@@ -1202,7 +1202,7 @@ const tabs = [
     {
         label: 'Compliance eNewsletters',
         content: <div><div className="sm:w-11/12 w-100 justify-center mx-auto">
-        <h4 className="text-2xl text-green-900 font-bold mb-5">Medical Coding Online Store</h4>
+        <h4 className="text-2xl text-green-900 font-bold mb-5">Online Store</h4>
         <img src="../hero.png" alt="gh" className="w-full" />
         <p className="">Get insights into the code changes that affect you, learn from case studies to improve revenue,
              and discover trouble-shooting strategies to overcome your reporting challenges with AAPC's 
@@ -1321,7 +1321,7 @@ const tabs = [
         label: 'Post-Acute eNewsletters',
         content: <div>
             <div className="sm:w-11/12 w-100 justify-center mx-auto">
-                <h4 className="text-2xl text-green-900 font-bold mb-5">Medical Coding Online Store</h4>
+                <h4 className="text-2xl text-green-900 font-bold mb-5">nline Store</h4>
                 <img src="../hero.png" alt="gh" className="w-full" />
                 <p className="">Get insights into the code changes that affect you, learn from case studies to improve revenue,
                      and discover trouble-shooting strategies to overcome your reporting challenges with AAPC's 
@@ -1440,7 +1440,7 @@ const tabs = [
         label: 'Tech & Innovation in Healthcare eNewsletter New!',
         content: <div>
             <div className="sm:w-11/12 w-100 justify-center mx-auto">
-                <h4 className="text-2xl text-green-900 font-bold mb-5">Medical Coding Online Store</h4>
+                <h4 className="text-2xl text-green-900 font-bold mb-5">line Store</h4>
                 <img src="../hero.png" alt="gh" className="w-full" />
                 <p className="">Get insights into the code changes that affect you, learn from case studies to improve revenue,
                      and discover trouble-shooting strategies to overcome your reporting challenges with AAPC's 

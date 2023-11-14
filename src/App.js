@@ -56,6 +56,8 @@ import Talking from './Components/Talking';
 import medical_coding_education from './Components/medical_coding_education';
 import Online_icd from './Components/Online_icd';
 import Online_icd_10 from './Components/Online_icd_10';
+import Online_code from './Components/Online_code';
+import About from './Components/About';
 const App = () => {
   return (
     <Router>
@@ -116,6 +118,8 @@ const App = () => {
             <Route path="/medical_coding_education" component={medical_coding_education}></Route>
             <Route path="/Online_icd" component={Online_icd}></Route>
             <Route path="/Online_icd_10" component={Online_icd_10}></Route>
+            <Route path="/Online_code" component={Online_code}></Route>
+            <Route path="/About" component={About}></Route>
           </Switch>
         <Footer/>
       </div>
