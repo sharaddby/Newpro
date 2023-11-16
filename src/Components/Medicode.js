@@ -149,9 +149,6 @@ function Medicode() {
                                 </div>
                             </div>
                         </div>
-
-
-
                     </div>
                 </div>
             </div>

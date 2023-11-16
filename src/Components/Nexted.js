@@ -1,57 +1,87 @@
-// src/App.js
-import React from 'react';
-import ParentTabs from './ParentTabs';
-import ChildTabs from './ChildTabs'; 
+import React, { useState } from 'react';
 
-function App() {
-  const childTabs = [
-    {
-      label: 'Child Tab 1',
-      content: <p>Child Tab 1 Content</p>,
-    },
-    {
-      label: 'Child Tab 2',
-      content: <p>Child Tab 2 Content</p>,
-    },
-  ];
-  const childTabs1 = [
-    {
-      label: 'Child Tab 1',
-      content: <p>Child Tab 1 Content1</p>,
-    },
-    {
-      label: 'Child Tab 2',
-      content: <p>Child Tab 2 Content1</p>,
-    },
-  ];
+const About = () => {
+    const [activeMainTab, setActiveMainTab] = useState(1);
+    const [activeSubTab, setActiveSubTab] = useState(1);
 
-  const parentTabs = [
-    {
-      label: 'Tab 1',
-      content: (
-        <div>
-          <h2>Parent Tab 1</h2>
-          <ChildTabs tabs={childTabs} />
+    const handleMainTabClick = (tabNumber) => {
+        setActiveMainTab(tabNumber);
+        setActiveSubTab(1);
+    };
+
+    const handleSubTabClick = (subTabNumber) => {
+        setActiveSubTab(subTabNumber);
+    };
+
+    return (
+        <div className='grid place-items-center mt-5'>
+            <div className='flex flex-col md:flex-row 2xl:w-8/12 xl:w-8/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center gap-8'>
+                <div className="flex flex-col space-x-2 2xl:w-1/4 xl:w-1/4 lg:1/3 md:w-1/3 sm:w-full w-full bg-gray-200 p-4">
+                    <div className="space-y-1">
+                        <button
+                            className={`w-full p-2 ${activeMainTab === 1 ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
+                            onClick={() => handleMainTabClick(1)}
+                        >
+                            Main Tab 1
+                        </button>
+                        {activeMainTab === 1 && (
+                            <div className="flex flex-col mt-2">
+                                <button
+                                    className={`p-2 ${activeSubTab === 1 ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
+                                    onClick={() => handleSubTabClick(1)}
+                                >
+                                    Subtab 1.1
+                                </button>
+                                <button
+                                    className={`p-2 ${activeSubTab === 2 ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
+                                    onClick={() => handleSubTabClick(2)}
+                                >
+                                    Subtab 1.2
+                                </button>
+                            </div>
+                        )}
+                        <button
+                            className={`w-full p-2 ${activeMainTab === 2 ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
+                            onClick={() => handleMainTabClick(2)}
+                        >
+                            Main Tab 2
+                        </button>
+                        {activeMainTab === 2 && (
+                            <div className="flex flex-col mt-2">
+                                <button
+                                    className={`p-2 ${activeSubTab === 1 ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
+                                    onClick={() => handleSubTabClick(1)}
+                                >
+                                    Subtab 2.1
+                                </button>
+                                <button
+                                    className={`p-2 ${activeSubTab === 2 ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
+                                    onClick={() => handleSubTabClick(2)}
+                                >
+                                    Subtab 2.2
+                                </button>
+                            </div>
+                        )}
+                    </div>
+                </div>
+                <div className="flex flex-col space-x-2 md:w-3/4 sm:w-full w-full p-4">
+                    {activeMainTab === 1 && (
+                        <div>
+                            {activeSubTab === 1 && <div>Content for Subtab 1.1 Content for Subtab 1.1 Content for Subtab 1.1 Content for Subtab 1.1 Content for Subtab 1.1</div>}
+                            {activeSubTab === 2 && <div>Content for Subtab 1.2</div>}
+                        </div>
+                    )}
+
+                    {activeMainTab === 2 && (
+                        <div>
+                            {activeSubTab === 1 && <div>Content for Subtab 2.1</div>}
+                            {activeSubTab === 2 && <div>Content for Subtab 2.2</div>}
+                        </div>
+                    )}
+                </div>
+            </div>
         </div>
-      ),
-    },
-    {
-      label: 'Tab 2',
-      content: (
-        <div>
-          <h2>Parent Tab 2</h2>
-          <ChildTabs tabs={childTabs1} />
-        </div>
-      ),
-    },
-  ];
+    );
+};
 
-  return (
-    <div className="p-4">
-      <h1 className="text-2xl font-bold text-center">Nested Tabs Example</h1>
-      <ParentTabs tabs={parentTabs} />
-    </div>
-  );
-}
-
-export default App;
+export default About;
