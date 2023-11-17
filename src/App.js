@@ -58,6 +58,7 @@ import Online_icd from './Components/Online_icd';
 import Online_icd_10 from './Components/Online_icd_10';
 import Online_code from './Components/Online_code';
 import About from './Components/About';
+import Medi from './Components/Medi';
 const App = () => {
   return (
     <Router>
@@ -120,6 +121,7 @@ const App = () => {
             <Route path="/Online_icd_10" component={Online_icd_10}></Route>
             <Route path="/Online_code" component={Online_code}></Route>
             <Route path="/About" component={About}></Route>
+            <Route path="/Medi" component={Medi}></Route>
           </Switch>
         <Footer/>
       </div>
