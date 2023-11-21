@@ -12,54 +12,54 @@ const Fundamentals_of_medicine_course = () => {
                 <div className="flex flex-col md:flex-row 2xl:w-8/12 xl:w-8/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center gap-8">
                     <div className="2xl:w-1/4 xl:w-1/4 lg:1/3 md:w-1/3 sm:w-full w-full">
                         <div className="bg-slate-200 p-1">
-                            <h5 className="block px-4 py-2 text-sm text-gray-700 bg-teal-500">
+                            <h5 className="block px-4 py-2 text-sm text-white bg-blue-500">
                                 Training</h5>
                             <hr className="h-1 bg-white" />
                             <Link
                                 to="Essentials"
-                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
+                                className="block px-4 py-2 text-sm text-gra bg-gray-300"
                             >
                                 Essentials
                             </Link>
                             <hr className="h-1 bg-white" />
                             <Link
                                 to="Exam_Preparation"
-                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
+                                className="block px-4 py-2 text-sm text-gray-700 bg-gray-300"
                             >
                                 Exam preparation
                             </Link>
                             <hr className="h-1 bg-white" />
                             <Link
                                 to="ContinuingEdu"
-                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
+                                className="block px-4 py-2 text-sm text-gray-700 bg-gray-300"
                             >
                                 Continuing education
                             </Link>
                             <hr className="h-1 bg-white" />
                             <Link
                                 to="Professional"
-                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
+                                className="block px-4 py-2 text-sm text-gray-700 bg-gray-300"
                             >
                                 Professional development
                             </Link>
                             <hr className="h-1 bg-white" />
                             <Link
                                 to="Instructor"
-                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
+                                className="block px-4 py-2 text-sm text-gray-700 bg-gray-300"
                             >
                                 Certified instructor
                             </Link>
                             <hr className="h-1 bg-white" />
                             <Link
                                 to="Corporate"
-                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
+                                className="block px-4 py-2 text-sm text-gray-700 bg-gray-300"
                             >
                                 Corporate and teams
                             </Link>
                             <hr className="h-1 bg-white" />
                             <Link
                                 to="Medicode"
-                                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
+                                className="block px-4 py-2 text-sm text-gray-700 bg-gray-300"
                             >
                                 CEU search
                             </Link>

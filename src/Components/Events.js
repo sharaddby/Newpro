@@ -26,7 +26,7 @@ const Even = () => {
                             className={`block text-md ${subItemVisible ? 'block' : 'hidden'
                                 }`}
                         >
-                            <ul className="py-1">
+                            <ul className="pb-1">
                                 <li
                                     className={`block py-2 text-md bg-gray-300 hover:bg-blue-500 text-gray-700 hover:text-white relative group ${subItemVisible ? 'border-b border-gray-200' : ''
                                         }`}
@@ -43,7 +43,7 @@ const Even = () => {
 
                                 </li>
                             </ul>
-                            <ul className="py-1">
+                            <ul>
                                 <li
                                     className={`block py-2 text-md bg-gray-300 hover:bg-blue-500 text-gray-700 hover:text-white  relative group ${subItemVisible ? 'border-b border-gray-200' : ''
                                         }`}
@@ -69,7 +69,7 @@ const Even = () => {
                                     </ul>
                                 </li>
                             </ul>
-                            <ul className="py-1">
+                            <ul>
                                 <li
                                     className={`block py-2 text-md bg-gray-300 hover:bg-blue-500 text-gray-700 hover:text-white   relative group ${subItemVisible ? 'border-b border-gray-200' : ''
                                         }`}
@@ -98,7 +98,7 @@ const Even = () => {
                                     </ul>
                                 </li>
                             </ul>
-                            <ul className="py-1">
+                            <ul>
                                 <li
                                     className={`block py-2 text-md bg-gray-300 hover:bg-blue-500 text-gray-700 hover:text-white   relative group ${subItemVisible ? 'border-b border-gray-200' : ''
                                         }`}
@@ -152,7 +152,7 @@ const Even = () => {
                                     </ul>
                                 </li>
                             </ul>
-                            <ul className="py-1">
+                            <ul>
                                 <li
                                     className={`block py-2 text-md bg-gray-300 hover:bg-blue-500 hover:text-white  text-gray-700  relative group ${subItemVisible ? 'border-b border-gray-200' : ''
                                         }`}

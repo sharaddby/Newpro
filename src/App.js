@@ -59,6 +59,9 @@ import Online_icd_10 from './Components/Online_icd_10';
 import Online_code from './Components/Online_code';
 import About from './Components/About';
 import Medi from './Components/Medi';
+import a from './Components/a';
+import Workshops from './Components/Workshops';
+import Newsletter from './Components/Newsletter';
 const App = () => {
   return (
     <Router>
@@ -122,6 +125,9 @@ const App = () => {
             <Route path="/Online_code" component={Online_code}></Route>
             <Route path="/About" component={About}></Route>
             <Route path="/Medi" component={Medi}></Route>
+            <Route path="/a" component={a}></Route>
+            <Route path="/Workshops" component={Workshops}></Route>
+            <Route path="/Newsletter" component={Newsletter}></Route>
           </Switch>
         <Footer/>
       </div>
