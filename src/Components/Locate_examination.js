@@ -16,14 +16,16 @@ const Locate_examination = () => {
                     Fortunately, identifying the certification that’s right for
                     you is easy once you see how they differ.
                   </p>
-                  <button class="px-12 py-3 rounded-full">
-                    <a
-                      href="https://tailwindui.com/documentation"
-                      class="rounded-full text-xl text-teal-900"
-                    >
-                      PURCHASE EXAM VOUCHERS{" "}
-                    </a>
-                  </button>
+                  <div className="mt-5">
+                    <button class="py-3 mb-0 rounded-full">
+                      <a
+                        href="https://tailwindui.com/documentation"
+                        class="rounded-full text-teal-900"
+                      >PURCHASE EXAM VOUCHERS{" "}<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-fw text-sm h-5 w-6 inline-block text-green-800" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg>
+                      </a>
+                    </button>
+                  </div>
+                  
                 </div>
                 <div class="bg-slate-200 p-5">
                   <h3 class="text-3xl mb-5">
@@ -35,12 +37,12 @@ const Locate_examination = () => {
                     Fortunately, identifying the certification that’s right for
                     you is easy once you see how they differ.
                   </p>
-                  <button class="px-12 py-3 rounded-full">
+                  <button class="py-3 rounded-full">
                     <a
                       href="https://tailwindui.com/documentation"
-                      class="rounded-full text-xl text-teal-900"
+                      class="rounded-full text-teal-900"
                     >
-                      Get Started{" "}
+                      REDEEM EXAM VOUCHERS{" "}<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-fw text-sm h-5 w-6 inline-block text-green-800" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg>
                     </a>
                   </button>
                 </div>
@@ -54,12 +56,12 @@ const Locate_examination = () => {
                     Fortunately, identifying the certification that’s right for
                     you is easy once you see how they differ.
                   </p>
-                  <button class="px-12 py-3 rounded-full">
+                  <button class="py-3 rounded-full">
                     <a
                       href="https://tailwindui.com/documentation"
-                      class="rounded-full text-xl text-teal-900"
+                      class="rounded-full text-teal-900"
                     >
-                      Get Started{" "}
+                      LEARN MORE ABOUT CANCELING EXAMS{" "}<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-fw text-sm h-5 w-6 inline-block text-green-800" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg>
                     </a>
                   </button>
                 </div>

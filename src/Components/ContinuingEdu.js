@@ -18,7 +18,14 @@ const ContinuingEdu = () => {
                 </div>
             </div>
         </div>
-        <Certificattab/>
+        <div class="grid place-items-center">
+            <div class="2xl:w-11/12 xl:w-11/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+                <div class="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 w-100 justify-center mx-auto">
+                <Certificattab/>
+                </div>
+            </div>
+        </div>
+        
         <Bluefooter />
     </div>
   );

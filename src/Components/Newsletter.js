@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+
+    
 const Newsletter = () => {
+    
     const [activeMainTab, setActiveMainTab] = useState(1);
     const [activeSubTab, setActiveSubTab] = useState(1);
     const [activeTab, setActiveTab] = useState('tab1');
@@ -16,6 +19,7 @@ const Newsletter = () => {
     const handleSubTabClick = (subTabNumber) => {
         setActiveSubTab(subTabNumber);
     };
+
     return (
         <div className='grid place-items-center mt-5'>
             <div className='flex flex-col md:flex-row 2xl:w-8/12 xl:w-8/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center'>
@@ -4205,7 +4209,16 @@ const Newsletter = () => {
                             {activeSubTab === 2 && <div>
                                 <div class="grid place-items-center">
                                     <div class="lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
-                                        <h3 className='text-3xl'>Medical Coding Book Bundles + Codify by AAPC</h3>
+                                        <h3 className='text-3xl mb-5'>Online Practice Exams</h3>
+                                        <p className="text-md">Are you really ready? Don’t overestimate, or worse, underestimate the difficulty of your exam. Get familiar with the format, questions, and time constraints before your exam and improve your chances of passing on your first try.</p>
+                                        <p className="text-md p-5">"I have been taking the practice exams. They are just as hard as the real thing and are a great benefit. I went back and corrected any of my mistakes and found my only problem is going slow enough to be thorough. I would recommend them to anyone. "</p>
+                                        <h4 className="text-2xl">Each practice exam offers:</h4>
+                                        <ul className="list-disc pl-10 mb-5">
+                                            <li>Immediate Feedback – incorrect answers are displayed with rationales for all questions</li>
+                                            <li>Unlimited Retakes – take the exam as many times as you like</li>
+                                            <li>Realistic Exam Content – emulates content and difficulty level of the actual exams</li>
+                                            <li>Readiness Gauge – an indication of your readiness for the real exam</li>
+                                        </ul>
                                         <div className="grid 2xl:grid-cols-10 xl:grid-cols-8 lg:grid-cols-8 md:grid-cols-5 sm:grid-cols-5 grid-cols-4 space-x-1 mt-5">
                                             <button
                                                 className={`${activeTab === 'tab1' ? 'bg-blue-500' : 'bg-gray-200'
@@ -4226,7 +4239,7 @@ const Newsletter = () => {
                                                     } px-0 py-2 my-2 rounded-lg text-md hover:text-white`}
                                                 onClick={() => handleTabClick('tab3')}
                                             >
-                                              CDEO
+                                                CDEO
                                             </button>
                                             <button
                                                 className={`${activeTab === 'tab4' ? 'bg-blue-500' : 'bg-gray-200'
@@ -4240,7 +4253,7 @@ const Newsletter = () => {
                                                     } px-0 py-2  my-2 rounded-lg text-md hover:text-white`}
                                                 onClick={() => handleTabClick('tab5')}
                                             >
-                                               CRC
+                                                CRC
                                             </button>
                                             <button
                                                 className={`${activeTab === 'tab6' ? 'bg-blue-500' : 'bg-gray-200'
@@ -4254,21 +4267,21 @@ const Newsletter = () => {
                                                     } px-0 py-2 my-2 rounded-lg text-md hover:text-white`}
                                                 onClick={() => handleTabClick('tab7')}
                                             >
-                                               CPMA
+                                                CPMA
                                             </button>
                                             <button
                                                 className={`${activeTab === 'tab8' ? 'bg-blue-500' : 'bg-gray-200'
                                                     } px-0 py-2 my-2 rounded-lg text-md hover:text-white`}
                                                 onClick={() => handleTabClick('tab8')}
                                             >
-                                               CPPM
+                                                CPPM
                                             </button>
                                             <button
                                                 className={`${activeTab === 'tab9' ? 'bg-blue-500' : 'bg-gray-200'
                                                     } px-0 py-2 my-2 rounded-lg text-md hover:text-white`}
                                                 onClick={() => handleTabClick('tab9')}
                                             >
-                                               CPCO
+                                                CPCO
                                             </button>
 
                                             <button
@@ -4276,15 +4289,55 @@ const Newsletter = () => {
                                                     } px-0 py-2 my-2 rounded-lg text-md hover:text-white`}
                                                 onClick={() => handleTabClick('tab10')}
                                             >
-                                              Specialty
+                                                Specialty
                                             </button>
-                                    </div>
+                                        </div>
                                         <div className="mt-4">
                                             {activeTab === 'tab1' && (
                                                 <div className="bg-white rounded-lg shadow">
                                                     <div class="grid place-items-center">
-                                                        <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
-                                                            <h1 classname="text-5xl">hi</h1>
+                                                        <div className="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
+                                                            <div className="col-span-3">
+                                                                <h4 className="text-2xl">CPC® Online Practice Exams</h4>
+                                                                <p className="txt-md">These practice exams are taken online and offer the BEST means to gauge your
+                                                                    readiness for the actual CPC® exam. The online practice exam is created by the same experts who write
+                                                                    the real exam. Each of the practice exams, A, B, C, D, E, and F have 50 questions and each exam's questions
+                                                                    are unique to that practice exam. Buy them individually, or in a bundle to save.</p>
+                                                                <h5 className="text-xl my-3">Choose a practice exam:</h5>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam A - $69.95 (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam B - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam c - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam Bundle (A,B,C) - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam Bundle (D,E,F) - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black my-5"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    I agree to these Practice Exam <span className="text-green-800">Terms and Conditions.</span>
+                                                                </p>
+                                                                <button className="bg-yellow-700 hover:bg-yellow-900 text-white font-bold py-2 px-12 rounded mt-2">
+                                                                    Add To Cart
+                                                                </button>
+                                                            </div>
+                                                            <div className="p-2">
+                                                                <div className="bg-gray-200 p-2">
+                                                                    <h6 className="text-lg font-semibold mb-3">CPC - Need Comprehensive Training?</h6>
+                                                                    <p className="text-md">  Our practice exams are ideal for those with prior training or two years of experience. For comprehensive training, view our Complete CPC Training Course.</p>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -4293,7 +4346,47 @@ const Newsletter = () => {
                                                 <div className="bg-white rounded-lg shadow">
                                                     <div class="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
-                                                            <h1 classname="text-5xl">hi</h1>
+                                                            <div className="col-span-3">
+                                                                <h4 className="text-2xl">CPC® Online Practice Exams</h4>
+                                                                <p className="txt-md">These practice exams are taken online and offer the BEST means to gauge your
+                                                                    readiness for the actual CPC® exam. The online practice exam is created by the same experts who write
+                                                                    the real exam. Each of the practice exams, A, B, C, D, E, and F have 50 questions and each exam's questions
+                                                                    are unique to that practice exam. Buy them individually, or in a bundle to save.</p>
+                                                                <h5 className="text-xl my-3">Choose a practice exam:</h5>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam A - $69.95 (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam B - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam c - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam Bundle (A,B,C) - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam Bundle (D,E,F) - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black my-5"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    I agree to these Practice Exam <span className="text-green-800">Terms and Conditions.</span>
+                                                                </p>
+                                                                <button className="bg-yellow-700 hover:bg-yellow-900 text-white font-bold py-2 px-12 rounded mt-2">
+                                                                    Add To Cart
+                                                                </button>
+                                                            </div>
+                                                            <div className="p-2">
+                                                                <div className="bg-gray-200 p-2">
+                                                                    <h6 className="text-lg font-semibold mb-3">CPC - Need Comprehensive Training?</h6>
+                                                                    <p className="text-md">  Our practice exams are ideal for those with prior training or two years of experience. For comprehensive training, view our Complete CPC Training Course.</p>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -4302,7 +4395,47 @@ const Newsletter = () => {
                                                 <div className="bg-white rounded-lg shadow">
                                                     <div class="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
-                                                            <h1 classname="text-5xl">hi</h1>
+                                                            <div className="col-span-3">
+                                                                <h4 className="text-2xl">CPC® Online Practice Exams</h4>
+                                                                <p className="txt-md">These practice exams are taken online and offer the BEST means to gauge your
+                                                                    readiness for the actual CPC® exam. The online practice exam is created by the same experts who write
+                                                                    the real exam. Each of the practice exams, A, B, C, D, E, and F have 50 questions and each exam's questions
+                                                                    are unique to that practice exam. Buy them individually, or in a bundle to save.</p>
+                                                                <h5 className="text-xl my-3">Choose a practice exam:</h5>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam A - $69.95 (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam B - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam c - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam Bundle (A,B,C) - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam Bundle (D,E,F) - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black my-5"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    I agree to these Practice Exam <span className="text-green-800">Terms and Conditions.</span>
+                                                                </p>
+                                                                <button className="bg-yellow-700 hover:bg-yellow-900 text-white font-bold py-2 px-12 rounded mt-2">
+                                                                    Add To Cart
+                                                                </button>
+                                                            </div>
+                                                            <div className="p-2">
+                                                                <div className="bg-gray-200 p-2">
+                                                                    <h6 className="text-lg font-semibold mb-3">CPC - Need Comprehensive Training?</h6>
+                                                                    <p className="text-md">  Our practice exams are ideal for those with prior training or two years of experience. For comprehensive training, view our Complete CPC Training Course.</p>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -4311,7 +4444,47 @@ const Newsletter = () => {
                                                 <div className="bg-white rounded-lg shadow">
                                                     <div class="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
-                                                            <h1 classname="text-5xl">hi</h1>
+                                                            <div className="col-span-3">
+                                                                <h4 className="text-2xl">CPC® Online Practice Exams</h4>
+                                                                <p className="txt-md">These practice exams are taken online and offer the BEST means to gauge your
+                                                                    readiness for the actual CPC® exam. The online practice exam is created by the same experts who write
+                                                                    the real exam. Each of the practice exams, A, B, C, D, E, and F have 50 questions and each exam's questions
+                                                                    are unique to that practice exam. Buy them individually, or in a bundle to save.</p>
+                                                                <h5 className="text-xl my-3">Choose a practice exam:</h5>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam A - $69.95 (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam B - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam c - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam Bundle (A,B,C) - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam Bundle (D,E,F) - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black my-5"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    I agree to these Practice Exam <span className="text-green-800">Terms and Conditions.</span>
+                                                                </p>
+                                                                <button className="bg-yellow-700 hover:bg-yellow-900 text-white font-bold py-2 px-12 rounded mt-2">
+                                                                    Add To Cart
+                                                                </button>
+                                                            </div>
+                                                            <div className="p-2">
+                                                                <div className="bg-gray-200 p-2">
+                                                                    <h6 className="text-lg font-semibold mb-3">CPC - Need Comprehensive Training?</h6>
+                                                                    <p className="text-md">  Our practice exams are ideal for those with prior training or two years of experience. For comprehensive training, view our Complete CPC Training Course.</p>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -4320,7 +4493,47 @@ const Newsletter = () => {
                                                 <div className="bg-white rounded-lg shadow">
                                                     <div class="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
-                                                            <h1 classname="text-5xl">hi</h1>
+                                                            <div className="col-span-3">
+                                                                <h4 className="text-2xl">CPC® Online Practice Exams</h4>
+                                                                <p className="txt-md">These practice exams are taken online and offer the BEST means to gauge your
+                                                                    readiness for the actual CPC® exam. The online practice exam is created by the same experts who write
+                                                                    the real exam. Each of the practice exams, A, B, C, D, E, and F have 50 questions and each exam's questions
+                                                                    are unique to that practice exam. Buy them individually, or in a bundle to save.</p>
+                                                                <h5 className="text-xl my-3">Choose a practice exam:</h5>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam A - $69.95 (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam B - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam c - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam Bundle (A,B,C) - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam Bundle (D,E,F) - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black my-5"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    I agree to these Practice Exam <span className="text-green-800">Terms and Conditions.</span>
+                                                                </p>
+                                                                <button className="bg-yellow-700 hover:bg-yellow-900 text-white font-bold py-2 px-12 rounded mt-2">
+                                                                    Add To Cart
+                                                                </button>
+                                                            </div>
+                                                            <div className="p-2">
+                                                                <div className="bg-gray-200 p-2">
+                                                                    <h6 className="text-lg font-semibold mb-3">CPC - Need Comprehensive Training?</h6>
+                                                                    <p className="text-md">  Our practice exams are ideal for those with prior training or two years of experience. For comprehensive training, view our Complete CPC Training Course.</p>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -4329,7 +4542,47 @@ const Newsletter = () => {
                                                 <div className="bg-white rounded-lg shadow">
                                                     <div class="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
-                                                            <h1 classname="text-5xl">hi</h1>
+                                                            <div className="col-span-3">
+                                                                <h4 className="text-2xl">CPC® Online Practice Exams</h4>
+                                                                <p className="txt-md">These practice exams are taken online and offer the BEST means to gauge your
+                                                                    readiness for the actual CPC® exam. The online practice exam is created by the same experts who write
+                                                                    the real exam. Each of the practice exams, A, B, C, D, E, and F have 50 questions and each exam's questions
+                                                                    are unique to that practice exam. Buy them individually, or in a bundle to save.</p>
+                                                                <h5 className="text-xl my-3">Choose a practice exam:</h5>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam A - $69.95 (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam B - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam c - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam Bundle (A,B,C) - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam Bundle (D,E,F) - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black my-5"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    I agree to these Practice Exam <span className="text-green-800">Terms and Conditions.</span>
+                                                                </p>
+                                                                <button className="bg-yellow-700 hover:bg-yellow-900 text-white font-bold py-2 px-12 rounded mt-2">
+                                                                    Add To Cart
+                                                                </button>
+                                                            </div>
+                                                            <div className="p-2">
+                                                                <div className="bg-gray-200 p-2">
+                                                                    <h6 className="text-lg font-semibold mb-3">CPC - Need Comprehensive Training?</h6>
+                                                                    <p className="text-md">  Our practice exams are ideal for those with prior training or two years of experience. For comprehensive training, view our Complete CPC Training Course.</p>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -4338,7 +4591,47 @@ const Newsletter = () => {
                                                 <div className="bg-white rounded-lg shadow">
                                                     <div class="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
-                                                            <h1 classname="text-5xl">hi</h1>
+                                                            <div className="col-span-3">
+                                                                <h4 className="text-2xl">CPC® Online Practice Exams</h4>
+                                                                <p className="txt-md">These practice exams are taken online and offer the BEST means to gauge your
+                                                                    readiness for the actual CPC® exam. The online practice exam is created by the same experts who write
+                                                                    the real exam. Each of the practice exams, A, B, C, D, E, and F have 50 questions and each exam's questions
+                                                                    are unique to that practice exam. Buy them individually, or in a bundle to save.</p>
+                                                                <h5 className="text-xl my-3">Choose a practice exam:</h5>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam A - $69.95 (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam B - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam c - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam Bundle (A,B,C) - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    CPC Practice Exam Bundle (D,E,F) - $69.95  (<span className="text-green-800">Members:</span><span className="text-red-500">$39.95)</span>
+                                                                </p>
+                                                                <p className="text-black my-5"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    I agree to these Practice Exam <span className="text-green-800">Terms and Conditions.</span>
+                                                                </p>
+                                                                <button className="bg-yellow-700 hover:bg-yellow-900 text-white font-bold py-2 px-12 rounded mt-2">
+                                                                    Add To Cart
+                                                                </button>
+                                                            </div>
+                                                            <div className="p-2">
+                                                                <div className="bg-gray-200 p-2">
+                                                                    <h6 className="text-lg font-semibold mb-3">CPC - Need Comprehensive Training?</h6>
+                                                                    <p className="text-md">  Our practice exams are ideal for those with prior training or two years of experience. For comprehensive training, view our Complete CPC Training Course.</p>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -4347,7 +4640,26 @@ const Newsletter = () => {
                                                 <div className="bg-white rounded-lg shadow">
                                                     <div class="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
-                                                            <h1 classname="text-5xl">hi</h1>
+                                                            <div className="col-span-3">
+                                                                <h4 className="text-2xl">CPC® Online Practice Exams</h4>
+                                                                <p className="txt-md">These practice exams are taken online and offer the BEST means to gauge your
+                                                                    readiness for the actual CPC® exam. The online practice exam is created by the same experts who write
+                                                                    the real exam. Each of the practice exams, A, B, C, D, E, and F have 50 questions and each exam's questions
+                                                                    are unique to that practice exam. Buy them individually, or in a bundle to save.</p>
+                                                                <p className="text-black my-5"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    I agree to these Practice Exam <span className="text-green-800">Terms and Conditions.</span>
+                                                                </p>
+                                                                <button className="bg-yellow-700 hover:bg-yellow-900 text-white font-bold py-2 px-12 rounded mt-2">
+                                                                    Add To Cart
+                                                                </button>
+                                                            </div>
+                                                            <div className="p-2">
+                                                                <div className="bg-gray-200 p-2">
+                                                                    <h6 className="text-lg font-semibold mb-3">CPC - Need Comprehensive Training?</h6>
+                                                                    <p className="text-md">  Our practice exams are ideal for those with prior training or two years of experience. For comprehensive training, view our Complete CPC Training Course.</p>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -4356,7 +4668,26 @@ const Newsletter = () => {
                                                 <div className="bg-white rounded-lg shadow">
                                                     <div class="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
-                                                            <h1 classname="text-5xl">hi</h1>
+                                                            <div className="col-span-3">
+                                                                <h4 className="text-2xl">CPC® Online Practice Exams</h4>
+                                                                <p className="txt-md">These practice exams are taken online and offer the BEST means to gauge your
+                                                                    readiness for the actual CPC® exam. The online practice exam is created by the same experts who write
+                                                                    the real exam. Each of the practice exams, A, B, C, D, E, and F have 50 questions and each exam's questions
+                                                                    are unique to that practice exam. Buy them individually, or in a bundle to save.</p>
+                                                                <p className="text-black my-5"><input id="comments" className="mx-5"
+                                                                    aria-describedby="comments-description" name="comments" type="checkbox" />
+                                                                    I agree to these Practice Exam <span className="text-green-800">Terms and Conditions.</span>
+                                                                </p>
+                                                                <button className="bg-yellow-700 hover:bg-yellow-900 text-white font-bold py-2 px-12 rounded mt-2">
+                                                                    Add To Cart
+                                                                </button>
+                                                            </div>
+                                                            <div className="p-2">
+                                                                <div className="bg-gray-200 p-2">
+                                                                    <h6 className="text-lg font-semibold mb-3">CPC - Need Comprehensive Training?</h6>
+                                                                    <p className="text-md">  Our practice exams are ideal for those with prior training or two years of experience. For comprehensive training, view our Complete CPC Training Course.</p>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -4365,8 +4696,8 @@ const Newsletter = () => {
                                                 <div className="bg-white rounded-lg shadow">
                                                     <div class="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
-                                                            <h1 classname="text-5xl">hi</h1>
-                                                        </div>
+                                                            
+                                                            </div>
                                                     </div>
                                                 </div>
                                             )}
@@ -4820,4 +5151,5 @@ const Newsletter = () => {
         </div>
     );
 };
+
 export default Newsletter

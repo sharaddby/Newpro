@@ -66,13 +66,13 @@ function Navbar() {
 
   return ( 
     <nav className="bg-white p-6">
-      <div className="container mx-auto">
-        <div className="flex justify-between items-center">
-          <div className="flex items-center">
+       <div className="grid place-items-center">
+        <div className="flex items-center place-content-around 2xl:w-10/12 xl:w-10/12 lg:w-full md:w-full sm:w-full w-full">
+          <div className="flex xl:w:2/5">
              <img src="../aapc-logo-new.svg" alt="..." className='w-24 h-20'/>
           </div>
            {/* desktop */}
-          <div className="hidden md:block">
+          <div className="hidden md:block xl:w:3/5">
             <ul className="flex space-x-6">
                <li>
                 <div className="relative group">
@@ -148,11 +148,13 @@ function Navbar() {
                              ><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-fw text-sm absolute left-0 h-5 w-5 inline-block ml-5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg> Workshops</Link>
                              <Link to="/ContinuingEdu" className="block ml-5 px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                              ><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-fw text-sm absolute left-0 h-5 w-5 inline-block ml-5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg> Specialty Certificates</Link>
-                              <Link to="/ContinuingEdu" className="block ml-5 px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
+                              <Link to="/newsletter" className="block ml-5 px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                              ><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-fw text-sm absolute left-0 h-5 w-5 inline-block ml-5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg>eNewsletters</Link>
-                            </div>
-                          <div>
-                            <Link to="/Exam_Preparation"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
+                            <Link to="/Professional" className="block ml-5 px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
+                             >Professional Development</Link>
+                             </div>
+                           <div>
+                            <Link to="/Events"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                             >Events Overview</Link>
                             <Link to="/Exam_Preparation"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                              > RISKCON</Link>
