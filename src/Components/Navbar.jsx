@@ -13,7 +13,7 @@ function Navbar() {
   };
   const toggleServices1 = () => {
     setservicesOpen1(!servicesOpen1);
-     setservicesOpen3(false);
+    setservicesOpen3(false);
     setservicesOpen4(false);
     setservicesOpen5(false);
     setservicesOpen6(false);
@@ -156,13 +156,13 @@ function Navbar() {
                            <div>
                             <Link to="/Events"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                             >Events Overview</Link>
-                            <Link to="/Exam_Preparation"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
+                            <Link to="/Riskcon"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                              > RISKCON</Link>
-                            <Link to="/Exam_Preparation"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
+                            <Link to="/Riskcon"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                              >DOCUCON</Link>
-                            <Link to="/Exam_Preparation"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
+                            <Link to="/Riskcon"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                               > AUDITCON</Link>
-                            <Link to="/Exam_Preparation"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
+                            <Link to="/Riskcon"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                              >Collaborative Compliance Conference</Link>
                             <Link to="/Exam_Preparation"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                             >Local Chapter Events</Link>
@@ -170,11 +170,9 @@ function Navbar() {
                           <div className="bg-gray-200">
                            <Link to="/Exam_Preparation"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                              >Business Solutions</Link>
-                            <Link to="/Corporate"  className="block px-6 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
+                            <Link to="/Corporate_training"  className="block px-6 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                             ><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-fw text-sm absolute left-0 h-5 w-5 inline-block xl:ml-[28rem]" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg> Find Custom Team Training</Link>
                             <Link to="/Exam_Preparation"  className="block px-6 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
-                            ><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-fw text-sm absolute left-0 h-5 w-5 inline-block xl:ml-[28rem]" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg> Take Your Team to Conferences</Link>
-                              <Link to="/Exam_Preparation"  className="block px-6 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                             ><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-fw text-sm absolute left-0 h-5 w-5 inline-block xl:ml-[28rem]" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg> Evaluate Your Coders</Link>
                           </div>
                         </div>
@@ -206,21 +204,21 @@ function Navbar() {
                               >Get Support</Link>
                               <Link to="/Blog"  className="block px-4 py-2 mt-2 text-sm   hover:text-orange-700 md:mt-0"
                               >AAPC Blog</Link>
-                              <Link to="/#"  className="block px-4 py-2 mt-2 text-sm   hover:text-orange-700 md:mt-0"
+                              <Link to="/Events"  className="block px-4 py-2 mt-2 text-sm   hover:text-orange-700 md:mt-0"
                               >Healthcare Business Monthly</Link>
                             </div>
                             <div className='bg-gray-200'>
                                <Link to="/Business"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                               >Business Solutions</Link>
-                               <Link to="/ContinuingEdu"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
+                               <Link to="/Subresources"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                               ><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-fw text-sm absolute left-0 h-5 w-5 inline-block xl:ml-52" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg>Case Studies</Link>
-                                <Link to="/ContinuingEdu"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
+                                <Link to="/Subresources"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                                ><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-fw text-sm absolute left-0 h-5 w-5 inline-block xl:ml-52" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg>White Papers</Link>
-                                <Link to="/ContinuingEdu"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
+                                <Link to="/Subresources"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                               ><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-fw text-sm absolute left-0 h-5 w-5 inline-block xl:ml-52" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg>Webinars</Link>
-                                <Link to="/ContinuingEdu"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
+                                <Link to="/Subresources"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                               ><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-fw text-sm absolute left-0 h-5 w-5 inline-block xl:ml-52" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg>eBriefs</Link>
-                                <Link to="/ContinuingEdu"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
+                                <Link to="/Subresources"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                               ><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-fw text-sm absolute left-0 h-5 w-5 inline-block xl:ml-52" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg>Podcasts</Link>
                             </div>
                           </div>
@@ -463,7 +461,7 @@ function Navbar() {
                              events>Events Overview</Link>
                             <Link to="/Exam_Preparation"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                              events>Regional Conference</Link>
-                            <Link to="/Exam_Preparation"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
+                            <Link to="/Riskcon"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                              riskcon> RISKCON</Link>
                               <Link to="/Exam_Preparation"  className="block px-4 py-2 mt-2 text-sm  hover:text-orange-700 md:mt-0"
                              riskcon>DOCUCON</Link>

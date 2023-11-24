@@ -1,5 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Audit_Services from './Components/Audit_Services';
+import Ans from './Components/Ans';
+import a from './Components/a';
+import About from './Components/About';
+import Blog from './Components/Blog';
+import Business_Solutions from './Components/Business_Solutions';
+import Box from './Components/Box';
+import Blogdtl from './Components/Blogdtl';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import Home from './Components/Home';
@@ -18,17 +26,13 @@ import Codes from './Components/Codes';
 import Essentials from './Components/Essentials';
 import Corporate from './Components/Corporate';
 import Career from './Components/Career';
-import Blog from './Components/Blog';
-import Business_Solutions from './Components/Business_Solutions';
 import Tools from './Components/Tools';
-import Audit_Services from './Components/Audit_Services';
 import Practicode from './Components/Practicode';
 import Datafile from './Components/Datafile';
 import corporate_membership from './Components/corporate_membership';
 import Medicode from './Components/Medicode';
 import Webinars from './Components/Webinars';
 import Events from './Components/Events';
-import Ans from './Components/Ans';
 import Even from './Components/Even';
 import Publications from './Components/Publications';
 import Support from './Components/Support';
@@ -42,11 +46,9 @@ import Group_purchasing from './Components/Group_purchasing';
 import Certified_Professional_Coder from './Components/Certified_Professional_Coder';
 import Fundamentals_of_medicine_course from './Components/Fundamentals_of_medicine_course';
 import Credential from './Components/Credential';
-import Box from './Components/Box';
 import Membership from './Components/Membership';
 import Medical_coding from './Components/Medical_coding';
 import Slider from './Components/Slider';
-import Blogdtl from './Components/Blogdtl';
 import Ceducation from './Components/Ceducation';
 import Ebrief_build from './Components/Ebrief_build';
 import Package from './Components/Package';
@@ -57,11 +59,14 @@ import medical_coding_education from './Components/medical_coding_education';
 import Online_icd from './Components/Online_icd';
 import Online_icd_10 from './Components/Online_icd_10';
 import Online_code from './Components/Online_code';
-import About from './Components/About';
 import Medi from './Components/Medi';
-import a from './Components/a';
 import Workshops from './Components/Workshops';
 import Newsletter from './Components/Newsletter';
+import Riskcon from './Components/Riskcon';
+import Localchapter from './Components/Localchapter';
+import Networking from './Components/Networking';
+import Corporate_training from './Components/Corporate_training';
+import Subresources from './Components/Subresources';
 const App = () => {
   return (
     <Router>
@@ -128,6 +133,11 @@ const App = () => {
             <Route path="/a" component={a}></Route>
             <Route path="/Workshops" component={Workshops}></Route>
             <Route path="/Newsletter" component={Newsletter}></Route>
+            <Route path="/Riskcon" component={Riskcon}></Route>
+            <Route path="/Localchapter" component={Localchapter}></Route>
+            <Route path="/Networking" component={Networking}></Route>
+            <Route path="/Corporate_training" component={Corporate_training}></Route>
+            <Route path="/Subresources" component={Subresources}></Route>
           </Switch>
         <Footer/>
       </div>
