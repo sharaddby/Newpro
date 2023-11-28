@@ -67,6 +67,10 @@ import Localchapter from './Components/Localchapter';
 import Networking from './Components/Networking';
 import Corporate_training from './Components/Corporate_training';
 import Subresources from './Components/Subresources';
+import Practicod from './Components/Practicod';
+import xtern_program from './Components/xtern_program';
+import group_webinars from './Components/group_webinars';
+import exam_prep_deals from './Components/exam_prep_deals';
 const App = () => {
   return (
     <Router>
@@ -138,6 +142,10 @@ const App = () => {
             <Route path="/Networking" component={Networking}></Route>
             <Route path="/Corporate_training" component={Corporate_training}></Route>
             <Route path="/Subresources" component={Subresources}></Route>
+            <Route path="/Practicod" component={Practicod}></Route>
+            <Route path="/xtern_program" component={xtern_program}></Route>
+            <Route path="/group_webinars" component={group_webinars}></Route>
+            <Route path="/exam_prep_deals" component={exam_prep_deals}></Route>
           </Switch>
         <Footer/>
       </div>

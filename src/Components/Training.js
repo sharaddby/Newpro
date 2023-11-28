@@ -19,17 +19,19 @@ const Training = () => {
                             <p class="text-gray-700 text-lg text-center">
                             Take 50% off everything you need to get certified. Pay over time starting at 0% financing.</p>
                         </div>
-                        <div class="pb-5 pt-5">
-                            <p class="text-lg text-center text-green-700"> SAVE NOW<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-fw text-sm h-5 w-6 inline-block text-green-800" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg></p>
+                         <div class="pt-1">
+                            <button className="text-green-700 hover:text-green-800 font-bold py-2 px-4 rounded mt-2 ml-24 text-lg">
+                                Save Now<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-fw text-sm h-5 w-6 inline-block text-green-800" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg>
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
                  <div class="grid place-item-center">
-                <div class="2xl:w-8/12 xl:w-8/12 lg:w-8/12 md:w-8/12 sm:w-8/12 mx-auto mt-20">
-                    <div class="grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-8">
+                <div class="2xl:w-8/12 xl:w-8/12 lg:w-8/12 md:w-8/12 sm:w-8/12 mx-auto my-20">
+                    <div class="grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-8 mb-28">
                         <div>
-                            <p>initial</p>
+                            <p>essinitial</p>
                             <h1 class="text-3xl font-semibold">Start with the basics.</h1>
                             <p>Unless you have at least two years of experience working in healthcare, you will need a
                                 foundation of the basics before you begin your medical coding or medical billing training. From
@@ -42,7 +44,7 @@ const Training = () => {
                     <div class="grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-8">
                         <div> <img src="../corp.webp" alt="#" /></div>
                         <div>
-                            <p>initial</p>
+                            <p>zzinitial</p>
                             <h1 class="text-3xl font-semibold">Start with the basics.</h1>
                             <p class="text-lg">Unless you have at least two years of experience working in healthcare, you will
                                 need a 
@@ -55,7 +57,7 @@ const Training = () => {
                 </div>
             </div>
             <div class="grid place-items-center mt-10">
-                <div class="2xl:w-9/12 xl:w-9/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+                <div class="2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
                     <div class="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 w-100 justify-center mx-auto">
                         <Slider1 />
                     </div>
@@ -82,7 +84,7 @@ const Training = () => {
                     </div>
                 </div>
                 <div class="grid place-items-center mt-10">
-                    <div class="2xl:w-9/12 xl:w-9/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+                    <div class="2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
                         <div class="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 w-100 justify-center mx-auto">
                             <Slider1 />
                         </div>

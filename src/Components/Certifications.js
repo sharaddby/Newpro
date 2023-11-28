@@ -5,8 +5,11 @@ import Bluebanner from './Bluebanner';
 const Certifications = () => {
   return (
     <div>
-         <div class="grid w-full">
-         <img src="../banner.jpg" alt="..." class="w-full"/>
+        <div class="grid w-full bg-green-800 bg-cover bg-center h-96" style={{ backgroundImage: 'url("../banner.jpg")' }}>
+            <div class="2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+                <p class="text-blue-500 pt-24">TRAINING</p>
+                <p class="text-blue-500 text-5xl">people learn best in different ways.<br /> We let you choose yours.</p>
+            </div>
         </div>
         <div class="grid place-items-center mt-16">
             <div class="2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
