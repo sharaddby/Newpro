@@ -7,16 +7,17 @@ const settings = {
   dots: true,
   infinite: true,
   speed: 500,
-  slidesToShow: 3,  // Default number of slides to show
+  slidesToShow: 4,  // Default number of slides to show
   slidesToScroll: 1,
   responsive: [
     {
       breakpoint: 1024, // Large devices like desktops
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 3,
         slidesToScroll: 1,
       },
     },
+
     {
       breakpoint: 768, // Medium devices like tablets
       settings: {
@@ -31,18 +32,12 @@ const settings = {
         slidesToScroll: 1,
       },
     },
-
-
   ],
 };
-
-
-
 const SliderComponent = () => {
   return (
     <Slider {...settings}>
-      <div className='flex flex-col mx-auto justify-center'>
-        <div className="p-4">
+       <div className="p-4">
           <div className="bg-tgreen px-5 py-5">
             <h1 className="text-2xl">Coding exam preparation courses</h1>
             <p>Get everything you need in one place to prepare  and take an AAPC coding
@@ -101,7 +96,6 @@ const SliderComponent = () => {
 
           </div>
         </div>
-      </div>
     </Slider>
   );
 };
