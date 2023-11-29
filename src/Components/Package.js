@@ -11,7 +11,7 @@ function Package() {
   return (
     <div>
       <div class="grid place-items-center">
-        <div class="2xl:w-8/12 xl:8/12 lg:8/12 w-full justify-center mx-auto">
+        <div class="2xl:w-8/12 xl:8/12 lg:8/12 w-11/12 justify-center mx-auto">
           <div class="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 w-100">
             <h3 className='text-3xl text-green-800 mb-5'>Certified Professional Coder (CPC®) and Biller (CPB™) Training</h3>
             <h4 className='text-2xl'> Step 1: Choose Your Package</h4>
@@ -205,7 +205,7 @@ function Package() {
         </div>
       </div>
       <div class="grid place-items-center">
-        <div class="2xl:w-8/12 xl:8/12 lg:8/12 w-full justify-center mx-auto">
+        <div class="2xl:w-8/12 xl:8/12 lg:8/12 w-11/12 justify-center mx-auto">
           <div class="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 w-100">
             <h4 className='text-2xl'>Step 2: Select Your Start Date</h4>
           </div>
@@ -213,7 +213,7 @@ function Package() {
       </div>
       <div class="flex items-center">
         <div className="flex flex-col md:flex-row 2xl:w-8/12 xl:w-8/12 lg:w-8/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mb-5">
-          <div className="2xl:basis-2/5 xl:basis-2/5 lg:basis-2/5 md:w-1/3 sm:w-1/3 w-full">
+          <div className="2xl:basis-2/5 xl:basis-2/5 lg:basis-2/5 md:w-1/3 sm:w-1/3 w-11/12">
             <input
               type="checkbox"
               className="h-4 w-4 text-indigo-600 rounded border-gray-300 focus:ring-indigo-500"
@@ -225,7 +225,7 @@ function Package() {
         </div>
       </div>
       <div class="grid place-items-center">
-        <div class="2xl:w-8/12 xl:8/12 lg:8/12 w-full justify-center mx-auto">
+        <div class="2xl:w-8/12 xl:8/12 lg:8/12 w-11/12 justify-center mx-auto">
           <div class="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 w-100">
             <h4 className='text-2xl'>Step 3: Popular Add-Ons to Consider</h4>
           </div>
@@ -263,7 +263,7 @@ function Package() {
       </div>
       <div class="flex items-center">
         <div className="flex flex-col md:flex-row 2xl:w-8/12 xl:w-8/12 lg:w-8/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mb-5">
-          <div className="2xl:basis-2/5 xl:basis-2/5 lg:basis-2/5 md:w-1/3 sm:w-1/3 w-full">
+          <div className="2xl:basis-2/5 xl:basis-2/5 lg:basis-2/5 md:w-1/3 sm:w-1/3 w-11/12 justify-center">
             <input
               type="checkbox"
               className="h-4 w-4 text-indigo-600 rounded border-gray-300 focus:ring-indigo-500"
@@ -285,14 +285,14 @@ function Package() {
         </div>
       </div>
       <div class="grid place-items-center">
-        <div class="2xl:w-8/12 xl:8/12 lg:8/12 w-full justify-center mx-auto">
+        <div class="2xl:w-8/12 xl:8/12 lg:8/12 w-11/12 justify-center mx-auto">
           <div class="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 w-100">
             <h4 className='text-2xl'>Step 4: Add to Cart</h4>
           </div>
         </div>
       </div>
       <div class="grid place-items-center">
-        <div class="2xl:w-8/12 xl:8/12 lg:8/12 w-full justify-center mx-auto">
+        <div class="2xl:w-8/12 xl:8/12 lg:8/12 w-11/12 justify-center mx-auto">
           <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 w-100">
             <div className='bg-gray-100'>
               <p>Package Price:</p>
@@ -316,14 +316,14 @@ function Package() {
         </div>
       </div>
       <div class="grid place-items-center">
-        <div class="2xl:w-8/12 xl:8/12 lg:8/12 w-full justify-center mx-auto">
+        <div class="2xl:w-8/12 xl:8/12 lg:8/12 w-11/12 justify-center mx-auto">
           <div class="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 w-100 my-5">
             <p>Have a Question? Call 877-290-0440 or have a career counselor call you.</p>
           </div>
         </div>
       </div>
       <div class="grid place-items-center">
-        <div class="2xl:w-8/12 xl:8/12 lg:8/12 w-full justify-center mx-auto">
+        <div class="2xl:w-8/12 xl:8/12 lg:8/12 w-11/12 justify-center mx-auto">
           <div class="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 w-100">
             <Packagetab />
           </div>

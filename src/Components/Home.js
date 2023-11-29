@@ -121,7 +121,7 @@ function Home() {
         </div>
 
         <div className="grid place-items-center">
-          <div className="2xl:w-7/12 xl:w-7/12 lg:w-9/12 md:w-9/12 sm:w-9/12 w-9/12 justify-center mx-auto">
+          <div className="2xl:w-7/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto">
             <div className="pl-10 pt-10">
               <p className="text-black text-lg dark:text-white font-semibold sm:text-xl md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-center">
                 Over 200,000 Members and Growing</p>
@@ -146,11 +146,11 @@ function Home() {
           </div>
         </div>
         <div className="grid place-items-center mb-16">
-          <div className="2xl:w-7/12 xl:w-7/12 lg:w-9/12 md:w-9/12 sm:w-9/12 w-9/12 justify-center mx-auto">
+          <div className="2xl:w-7/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto">
             <div className="grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 w-100 gap-8">
               <div className="relative inline-block text-left w-full">
                 <div>
-                  <h5 className="sm:text-xl mb-5 ">Medical Coding Training</h5>
+                  <h4 className="lg:text-2xl lg:font-semibold sm:text-xl mb-5 ">Medical Coding Training</h4>
                   <p className="text-md">Double your chances of passing the exam to become a Certified Professional
                     Coder (CPC®)
                     Get your career in medical coding started today.</p>
@@ -162,8 +162,8 @@ function Home() {
                 </div>
 
                 <button onClick={toggleServices1} className="text-gray-700 bg-gray-300 hover:text-gray-900 focus:outline-none h-12 w-80">
-                More Popular Trainings
-                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-fw text-sm h-5 w-6 inline-block text-green-800" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg>
+                    More Popular Trainings
+                  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-fw text-sm h-5 w-6 inline-block text-green-800" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg>
                 </button>
                 {servicesOpen1 && (
                   <div className="origin-top-left absolute left-0 mt-2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
@@ -215,7 +215,7 @@ function Home() {
               </div>
               <div className="relative inline-block text-left w-full">
                 <div>
-                  <h5 className="sm:text-xl mb-5 ">Medical Coding Training</h5>
+                  <h4 className="lg:text-2xl lg:font-semibold sm:text-xl mb-5 ">Medical Coding Training</h4>
                   <p className="text-md">Double your chances of passing the exam to become a Certified Professional
                     Coder (CPC®)
                     Get your career in medical coding started today.</p>
@@ -302,7 +302,7 @@ function Home() {
                 )}
               </div>
               <div>
-                <h1 className="sm:text-xl mb-5">Medical Coding Training</h1>
+                <h4 className="lg:text-2xl lg:font-semibold sm:text-xl mb-5">Medical Coding Training</h4>
                 <p className="text-md">Dou22ble your chances of passing the exam to become a Certified Professional
                   Coder (CPC®).
                   Get your career in medical coding started today.</p>
@@ -332,28 +332,27 @@ function Home() {
         </div>
 
         <div className="grid place-items-center">
-          <div className="2xl:w-7/12 xl:w-7/12 lg:w-9/12 md:w-10/12 sm:w-10/12 w-10/12 justify-center mx-auto">
+          <div className="2xl:w-7/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto">
             <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 lg:gap-8 md:gap-2 sm:gap-2">
               <div className="grid 2xl:grid-rows-1 xl:grid-rows-1 lg:grid-rows-1 md:grid-rows-1 sm:grid-rows-1 grid-flow-col shadow shadow-gray-400">
-                <span>
+                <span className='justify-center mx-auto'>
                   <h5 className="bg-lightsky hover:bg-darksky p-2 text-white text-xl font-bold">for business</h5>
                   <p className="2xl:text-lg sm:text-md p-3 text-justify">We help healthcare organizations optimize and maintain
                     their revenue cycles. Our auditing services and customized training solutions drive significant results, ensuring your team
                     is up on the latest changes and your certifications are up to date.</p>
-                    <Link to="./Business" class="border-solid border-2 border-lightsky  text-black px-24 py-2 rounded-md">Learn More
-                      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-fw text-sm h-5 w-6 inline-block text-green-800" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg>
-                    </Link>
+                      <Link to="./Business" class="border-solid border-2 border-lightsky  text-black lg:px-24 md:px-12 px-4 py-2 rounded-md">Learn More
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-fw text-sm h-5 w-6 inline-block text-green-800" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg>
+                      </Link>
                  </span>
                 <img src="../Cap.png" alt="..." className='w-max'/>
               </div>
-              
               <div className="grid 2xl:grid-rows-1 xl:grid-rows-1 lg:grid-rows-1 md:grid-rows-1 sm:grid-rows-1 grid-flow-col shadow shadow-gray-400">
                 <span>
                   <h5 className="bg-lightsky hover:bg-darksky p-2 text-white text-xl font-bold">for School</h5>
                   <p className="2xl:text-lg sm:text-md p-3 text-justify">We help healthcare organizations optimize and maintain
                     their revenue cycles. Our auditing services and customized training solutions drive significant results, ensuring your team
                     is up on the latest changes and your certifications are up to date.</p>
-                    <Link to="./Business" class="border-solid border-2 border-lightsky  text-black px-24 py-2 rounded-md">Learn More
+                    <Link to="./Business" class="border-solid border-2 border-lightsky  text-black xl:px-24 lg:px-16 md:px-12 px-4 py-2 rounded-md">Learn More
                       <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" class="svg-inline--fa fa-angle-right fa-fw text-sm h-5 w-6 inline-block text-green-800" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg>
                     </Link>
                  </span>
@@ -364,7 +363,7 @@ function Home() {
         </div>
 
         <div className="grid place-items-center mt-16">
-          <div className="2xl:w-8/12 xl:w-8/12 lg:w-9/12 md:w-9/12 sm:w-9/12 w-10/12 justify-center mx-auto">
+          <div className="2xl:w-7/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto">
             <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 w-100 gap-4">
               <div className="bg-slate-100 pl-10">
                 <h5 className="2xl:text-xl sm:text-lg mb-5 text-center pt-5 font-semibold text-gray-600">Upcoming Events</h5>
@@ -410,7 +409,7 @@ function Home() {
         </div>
 
         <div className="grid place-items-center mt-16">
-          <div className="2xl:w-8/12 xl:w-8/12 lg:w-9/12 md:w-9/12 sm:w-9/12 w-10/12 justify-center mx-auto">
+          <div className="2xl:w-7/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto">
             <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 w-100 gap-4">
               <div className="bg-slate-100 pl-10 pr-10">
                 <h5 className="t2xl:text-xl sm:text-lg mb-5 text-center pt-5 font-semibold text-gray-600">Job Search</h5>
@@ -541,7 +540,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="2xl:w-8/12 xl:w-8/12 lg:w-10/12 md:w-10/12 sm:w-10/12 w-10/12 justify-center mx-auto mt-16">
+          <div className="2xl:w-7/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto mt-16">
             <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
               <div className="bg-slate-100 w-full justify-center mx-auto">
                 <div className="grid grid-rows-1 grid-flow-col">

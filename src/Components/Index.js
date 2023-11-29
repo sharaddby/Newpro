@@ -279,7 +279,8 @@ function Index() {
                                 cycles. Our auditing
                                 services and customized training solutions drive significant results, ensuring your team
                                 is up on the latest
-                                changes and your certifications are up to date.</p>
+                                changes and your certifications are up to date.
+                            </p>
                         </span>
                         <span><img src="../Cap.png" alt="..."/></span>
                     </div>
