@@ -4,7 +4,7 @@ const Bluebanner = () => {
   return (
     <div>
          <div class="grid place-items-center mt-10 bg-darkble">
-            <div class="2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto mt-20 mb-20">
+            <div class="2xl:w-8/12 xl:w-8/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto mt-20 mb-20">
                 <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 w-100 gap-8">
                     <div>
                         <h1 class="pt-20 pb-10 text-white">BUSINESS SOLUTIONS</h1>

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Quick = () => {
   return (
     <div>
-        <div className="2xl:w-7/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto my-16">
+        <div className="2xl:w-8/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto my-16">
                 <h1 className="mb-5 pl-4">QUICK RESOURCES</h1>
                 <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 w-100 gap-4">
                     <div>
