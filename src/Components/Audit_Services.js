@@ -1,6 +1,5 @@
 import React from 'react'
 import Slider from '../Components/Slider';
-
 const Audit_Services = () => {
   return (
     <div>
@@ -27,7 +26,7 @@ const Audit_Services = () => {
     </div>
 
     <div className="grid place-item-center">
-        <div className="2xl:w-8/12 xl:w-8/12 lg:w-8/12 md:w-full sm:w-full mx-auto mt-36">
+        <div className="2xl:w-8/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 mx-auto mt-36">
             <h1 className="2xl:text-3xl font-semibold">
                 Invest in Your Team's Future: Equip Your Employees for Success
             </h1>
@@ -38,7 +37,7 @@ const Audit_Services = () => {
         </div>
     </div>
     <div className="grid place-items-center mt-5">
-        <div className="2xl:w-8/12 xl:w-8/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto">
+        <div className="2xl:w-8/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12justify-center mx-auto">
           <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 w-100 gap-8">
             <div className="bg-slate-200 p-5 hover:shadow-2xl">
               <h3 className="text-3xl mb-5">
@@ -80,7 +79,7 @@ const Audit_Services = () => {
         </div>
       </div>
       <div className="grid place-items-center mt-5">
-        <div className="2xl:w-8/12 xl:w-8/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto">
+        <div className="2xl:w-8/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto">
           <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 w-100 gap-8">
             <div className="bg-slate-200 p-5 hover:shadow-2xl">
               <h3 className="text-3xl mb-5">
@@ -122,7 +121,7 @@ const Audit_Services = () => {
         </div>
       </div>
     <div className="grid place-item-center">
-        <div className="2xl:w-8/12 xl:w-8/12 lg:w-8/12 md:w-8/12 sm:w-8/12 mx-auto mt-20">
+        <div className="2xl:w-8/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 mx-auto mt-20">
             <div className="grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-8">
             <div> <img src="../age.webp" alt="#"/></div>
                <div>
@@ -138,7 +137,7 @@ const Audit_Services = () => {
         </div>
     </div>
     <div className="grid place-items-center mt-10 bg-darkble px-10 py-10">
-        <div className="2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto ">
+        <div className="2xl:w-8/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto ">
             <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 w-100 gap-8">
                 <div className="p-5">
                     <img src="../train.webp" alt="#"/>
@@ -159,7 +158,7 @@ const Audit_Services = () => {
     </div>
     <Slider/>
         <div className="grid place-items-center mt-10">
-            <div className="2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto mt-10 mb-10">
+            <div className="2xl:w-8/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto mt-10 mb-10">
                 <h1 className="text-3xl">You might also like</h1>
                 <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3 w-100 gap-4">
                     <div className="pt-6 max-h-full">

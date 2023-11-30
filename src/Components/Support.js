@@ -3,10 +3,10 @@ import React from 'react'
 const Support = () => {
     return (
         <div>
-            <div className="grid w-full bg-green-800 bg-cover bg-center h-46" style={{ backgroundImage: 'url("../hbg.webp")' }}>
-                <div className="2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
-                    <p className="text-white pt-16">CONTINUING EDUCATION</p>
-                    <p className="text-white text-5xl pb-16">Ready to take your career to the next level?</p>
+            <div className="grid w-full bg-green-800 bg-cover bg-center" style={{ backgroundImage: 'url("../ris.webp")' }}>
+                <div className="2xl:w-8/12 xl:w-8/12 lg:w-8/12 md:w-8/12 sm:w-8/12 w-8/12 justify-center mx-auto py-20">
+                    <p className="text-white">CERTIFICATIONS</p>
+                    <h3 className="text-white text-3xl">AAPC empowers you to achieve your dreams<br /> with certifications for every <br />stage of your career.</h3>
                 </div>
             </div>
             <div className="grid place-items-center mt-5">
