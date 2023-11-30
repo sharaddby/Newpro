@@ -134,7 +134,7 @@ const Supports = () => {
                     {activeMainTab === 1 && (
                         <div>
                             {activeSubTab === 1 && <div>
-                                <div class="sm:w-full w-100 justify-center mx-auto">
+                                <div className="sm:w-full w-100 justify-center mx-auto">
                                     <h2 className="text-4xl text-green-900 font-semibold">Conferences</h2>
                                     <p className='my-5'>Have a question about an AAPC conference? Get all your answers here.</p>
                                     <h3 className='text-3xl my-5'>Frequently Asked Questions</h3>
@@ -155,7 +155,7 @@ const Supports = () => {
                     {activeMainTab === 2 && (
                         <div>
                             {activeSubTab === 1 && <div>
-                                <div class="sm:w-full w-100 justify-center mx-auto">
+                                <div className="sm:w-full w-100 justify-center mx-auto">
                                     <h2 className="text-4xl text-green-900 font-semibold">Workshops</h2>
                                     <p className='my-5'>Have a question about an AAPC conference? Get all your answers here.</p>
                                     <h3 className='text-3xl my-5'>Frequently Asked Questions</h3>
@@ -178,7 +178,7 @@ const Supports = () => {
                     {activeMainTab === 3 && (
                         <div>
                             {activeSubTab === 1 && <div>
-                                <div class="sm:w-full w-100 justify-center mx-auto">
+                                <div className="sm:w-full w-100 justify-center mx-auto">
                                     <h2 className="text-4xl text-green-900 font-semibold">Webinars</h2>
                                     <p className='my-5'>Have a question about an AAPC conference? Get all your answers here.</p>
                                     <h3 className='text-3xl my-5'>Frequently Asked Questions</h3>
@@ -201,7 +201,7 @@ const Supports = () => {
                     {activeMainTab === 4 && (
                         <div>
                             {activeSubTab === 1 && <div>
-                                <div class="sm:w-full w-100 justify-center mx-auto">
+                                <div className="sm:w-full w-100 justify-center mx-auto">
                                     <h2 className="text-4xl text-green-900 font-semibold">Corporate membership</h2>
                                     <p className='my-5'>Have a question about an AAPC conference? Get all your answers here.</p>
                                     <h3 className='text-3xl my-5'>Frequently Asked Questions</h3>
@@ -228,7 +228,7 @@ const Supports = () => {
                     {activeMainTab === 5 && (
                         <div>
                             {activeSubTab === 1 && <div>
-                                <div class="sm:w-full w-100 justify-center mx-auto">
+                                <div className="sm:w-full w-100 justify-center mx-auto">
                                     <h2 className="text-4xl text-green-900 font-semibold">Electronic (LRP) exams</h2>
                                     <p className='my-5'>Have a question about an AAPC conference? Get all your answers here.</p>
                                     <h3 className='text-3xl my-5'>Frequently Asked Questions</h3>
@@ -257,7 +257,7 @@ const Supports = () => {
                                 </div>
                             </div>}
                             {activeSubTab === 2 && <div>
-                                <div class="sm:w-full w-100 justify-center mx-auto">
+                                <div className="sm:w-full w-100 justify-center mx-auto">
                                     <h2 className="text-4xl text-green-900 font-semibold">In-person exams</h2>
                                     <p className='my-5'>Have a question about an AAPC conference? Get all your answers here.</p>
                                     <h3 className='text-3xl my-5'>Frequently Asked Questions</h3>
@@ -279,7 +279,7 @@ const Supports = () => {
 
                             </div>}
                             {activeSubTab === 3 && <div>
-                                <div class="sm:w-full w-100 justify-center mx-auto">
+                                <div className="sm:w-full w-100 justify-center mx-auto">
                                     <h2 className="text-4xl text-green-900 font-semibold">International test center exams</h2>
                                     <p className='my-5'>Have a question about an AAPC conference? Get all your answers here.</p>
                                     <h3 className='text-3xl my-5'>Frequently Asked Questions</h3>
@@ -307,7 +307,7 @@ const Supports = () => {
                     {activeMainTab === 6 && (
                         <div>
                             {activeSubTab === 1 && <div>
-                                <div class="sm:w-full w-100 justify-center mx-auto">
+                                <div className="sm:w-full w-100 justify-center mx-auto">
                                     <h2 className="text-4xl text-green-900 font-semibold">Blackboard</h2>
                                     <p className='my-5'>Have a question about an AAPC conference? Get all your answers here.</p>
                                     <h3 className='text-3xl my-5'>Frequently Asked Questions</h3>
@@ -334,7 +334,7 @@ const Supports = () => {
                     {activeMainTab === 7 && (
                         <div>
                             {activeSubTab === 1 && <div>
-                                <div class="sm:w-full w-100 justify-center mx-auto">
+                                <div className="sm:w-full w-100 justify-center mx-auto">
                                     <h2 className="text-4xl text-green-900 font-semibold">Project Xtern</h2>
                                     <p className='my-5'>Have a question about an AAPC conference? Get all your answers here.</p>
                                     <h3 className='text-3xl my-5'>Frequently Asked Questions</h3>
@@ -358,7 +358,7 @@ const Supports = () => {
                     {activeMainTab === 8 && (
                         <div>
                             {activeSubTab === 1 && <div>
-                                <div class="sm:w-full w-100 justify-center mx-auto">
+                                <div className="sm:w-full w-100 justify-center mx-auto">
                                     <h2 className="text-4xl text-green-900 font-semibold">CEU vendors</h2>
                                     <p className='my-5'>Have a question about an AAPC conference? Get all your answers here.</p>
                                     <h3 className='text-3xl my-5'>Frequently Asked Questions</h3>
@@ -385,7 +385,7 @@ const Supports = () => {
                     {activeMainTab === 9 && (
                         <div>
                             {activeSubTab === 1 && <div>
-                                <div class="sm:w-full w-100 justify-center mx-auto">
+                                <div className="sm:w-full w-100 justify-center mx-auto">
                                     <h2 className="text-4xl text-green-900 font-semibold">Books</h2>
                                     <p className='my-5'>Have a question about an AAPC conference? Get all your answers here.</p>
                                     <h3 className='text-3xl my-5'>Frequently Asked Questions</h3>
@@ -412,7 +412,7 @@ const Supports = () => {
                     {activeMainTab === 10 && (
                         <div>
                             {activeSubTab === 1 && <div>
-                                <div class="sm:w-full w-100 justify-center mx-auto">
+                                <div className="sm:w-full w-100 justify-center mx-auto">
                                     <h2 className="text-4xl text-green-900 font-semibold">Codify by AAPC</h2>
                                     <p className='my-5'>Have a question about an AAPC conference? Get all your answers here.</p>
                                     <h3 className='text-3xl my-5'>Frequently Asked Questions</h3>
@@ -435,7 +435,7 @@ const Supports = () => {
                     {activeMainTab === 11 && (
                         <div>
                             {activeSubTab === 1 && <div>
-                                <div class="sm:w-full w-100 justify-center mx-auto">
+                                <div className="sm:w-full w-100 justify-center mx-auto">
                                     <h2 className="text-4xl text-green-900 font-semibold">Areas of focus</h2>
                                     <p className='my-5'>Have a question about an AAPC conference? Get all your answers here.</p>
                                     <h3 className='text-3xl my-5'>Frequently Asked Questions</h3>

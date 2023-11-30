@@ -57,10 +57,20 @@ function Codes() {
             </div>
         </div> 
         <div class="grid w-full">
-            <div class="2xl:w-7/12 xl:w-7/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
-                <img src="../ban.jpg" alt="#" class="h-96 w-full"/>
+            <div className="2xl:w-7/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto">
+                 <h3 className="text-3xl my-5 text-green-800">Medical Coding’s Best Online Code Search & Lookup Resource</h3>
             </div>
-            <div class="2xl:w-7/12 xl:w-7/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+            <div className="2xl:w-7/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto bg-cover bg-center" style={{ backgroundImage: 'url("../ris.webp")' }}>
+                <div className="2xl:w-8/12 xl:w-8/12 lg:w-8/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto py-20">
+                    <h3 className="text-white text-3xl font-semibold">Power Up with Codify by AAPC</h3>
+                    <h5 className="text-white text-xl">When it comes to online medical coding software, coding & code lookup tool, we’ve made Codify by AAPC easier, more customizable, and loaded it with unprecedented features. Available in a variety of subscription levels to suit your needs.</h5>
+                    <button class="px-5 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-none">
+                        <a href="https://tailwindui.com/documentation"
+                            class="py-6 text-white rounded-none w-full text-xl font-semibold">Explore Subscription Options</a>
+                    </button>
+                </div>
+            </div>
+            <div class="2xl:w-7/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto">
                 <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 lg:gap-1 md:gap-2 sm:gap-2 w-100">
                     <div class="border border-lightsky hover:border-darksky mb-2">
                         <button class="px-5 py-5 bg-lightsky hover:bg-darksky text-white rounded-none w-full">
@@ -91,7 +101,7 @@ function Codes() {
         </div>
         <div class="grid w-full">
             <div class="grid place-items-center mt-8 mb-8">
-                <div class="2xl:w-7/12 xl:w-7/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+                <div class="2xl:w-7/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto">
                     <h1 class="text-2xl mb-5">What's New?</h1>
                     <div
                         class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 lg:gap-2 md:gap-2 sm:gap-2 w-100 bg-gray-100">
@@ -125,7 +135,7 @@ function Codes() {
         </div>
         <div class="grid w-full">
             <div class="grid place-items-center mt-8 mb-8">
-                <div class="2xl:w-7/12 xl:w-7/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+                <div class="2xl:w-7/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto">
                     <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 lg:gap-1 md:gap-2 sm:gap-2 w-100">
                         <div>
                             <img src="../codify-banner3.webp" alt="#" />
@@ -182,7 +192,7 @@ function Codes() {
         </div>
         <div class="grid w-full bg-slate-200">
             <div class="grid place-items-center mt-8 mb-8">
-                <div class="2xl:w-7/12 xl:w-7/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+                <div class="2xl:w-7/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto">
                     <p class="pl-5">"AAPC's Codify system is like having an all-in-one online coding and resource book right at your
                         fingertips. Being able to quickly move through the index with access to coding conventions,
                         guidelines, coding clinics, and more — all located right where I need it — has been a great aid
@@ -198,7 +208,7 @@ function Codes() {
         </div>
         <div class="grid w-full">
             <div class="grid place-items-center mt-8 mb-8">
-                <div class="2xl:w-7/12 xl:w-7/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+                <div class="2xl:w-7/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto">
                     <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 lg:gap-1 md:gap-2 sm:gap-2 w-100">
                         <div>
                             <div class="bg-slate-200 mb-2 pl-5">
@@ -238,7 +248,7 @@ function Codes() {
             <img src="../ban.jpg" class="h-96 w-full mb-5" alt="#" />
        </div>
         <div class="grid w-full">
-            <div class="grid 2xl:w-7/12 xl:w-7/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+            <div class="grid 2xl:w-7/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto">
                 <h1 class="text-2xl">Start Your Free Trial Of Codify by AAPC Today!</h1>
                  <div class="mb-4 border-b border-gray-200 dark:border-gray-700">
                     <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
@@ -531,7 +541,7 @@ function Codes() {
             </div>
         </div>
         <div class="grid w-full">
-            <div class="grid 2xl:w-7/12 xl:w-7/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+            <div class="grid 2xl:w-7/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto">
                 <h1>Codify by AAPC Product Comparison</h1>
                 <table class="table-auto">
                     <thead>
@@ -868,9 +878,9 @@ function Codes() {
        
         <div class="grid w-full bg-lightgren">
             <div class="grid place-items-center mt-16">
-                <div class="2xl:w-7/12 xl:w-7/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
-                    <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 w-100 gap-4">
-                        <div>
+                <div class="2xl:w-7/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto">
+                    <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 w-100 gap-4 my-5"> 
+                        <div className='pl-5'>
                             <h1 class="text-2xl font-bold mb-10">Recent Updates</h1>
                             <ul class="list-disc">
                                 <li class="text-darksky mb-2 text-lg">Regulatory Information Center Updates: August 17, 2023</li>
@@ -880,8 +890,8 @@ function Codes() {
                                 <li class="text-darksky mb-2 text-lg">Regulatory Information Center Updates: August 1, 2023</li>
                             </ul>
                         </div>
-                        <div>
-                            <img src="../codify-banner1.webp" alt="#" />
+                        <div className='shadow-4xl'>
+                            <img src="../age.webp" alt="#" />
                         </div>
                     </div>
                 </div>

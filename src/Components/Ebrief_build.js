@@ -19,20 +19,20 @@ function RegistrationForm() {
 
     return (
         <div>
-            <div class="grid place-items-center mt-16">
-                <div class="2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
-                    <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 w-100 gap-8">
-                        <div class="p-5 col-span-2">
-                            <h2 class="text-4xl mb-5">Build vs. Buy Curriculum: Which is Best for Your School?</h2>
-                            <p class="text-lg text-why">You’re an education leader. You want to offer the best curriculum to your students.
+            <div className="grid place-items-center mt-16">
+                <div className="2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+                    <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 w-100 gap-8">
+                        <div className="p-5 col-span-2">
+                            <h2 className="text-4xl mb-5">Build vs. Buy Curriculum: Which is Best for Your School?</h2>
+                            <p className="text-lg text-why">You’re an education leader. You want to offer the best curriculum to your students.
                                 You also want high exam pass rates, courses built to your specifications, to make the most of your instructors’
                                 time, to use your budget wisely, and to set your students up for success in their future careers. So, when it
                                 comes time to offer a new program at your school, you have a lot of factors to consider when deciding whether
                                 to build or buy the curriculum. In this eBrief, we explore the pros and cons of both — so you can determine which
                                 is best for your institution.</p>
                         </div>
-                        <div class="bg-footsky p-5 my-5">
-                            <h4 class="text-2xl mb-5 text-center text-white">Fill out the form below to download your free eBrief.</h4>
+                        <div className="bg-footsky p-5 my-5">
+                            <h4 className="text-2xl mb-5 text-center text-white">Fill out the form below to download your free eBrief.</h4>
                             <form onSubmit={handleSubmit}>
                                 <div className="mb-4">
                                     <label htmlFor="fname" className="block text-white text-sm font-bold mb-2">

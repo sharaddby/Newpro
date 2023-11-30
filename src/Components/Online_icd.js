@@ -71,29 +71,29 @@ const Online_icd = () => {
                         </ul>
                     </div>
                     <hr className='h-1 bg-black my-3' />
-                    <div class="flex items-center">
-                        <input type="checkbox" class="form-checkbox text-indigo-600" />
-                        <label class="ml-2 text-gray-700"> Not an AAPC Member? Add AAPC Membership for $205 to get member prices.
+                    <div className="flex items-center">
+                        <input type="checkbox" className="form-checkbox text-indigo-600" />
+                        <label className="ml-2 text-gray-700"> Not an AAPC Member? Add AAPC Membership for $205 to get member prices.
                         </label>
                     </div>
                     <hr className='h-1 bg-black my-3' />
                     <p className='text-lg'>Required Books:</p>
-                    <div class="flex items-center">
-                        <input type="checkbox" class="form-checkbox text-indigo-600" />
-                        <label class="ml-2 text-gray-700"> Not an AAPC Member? Add AAPC Membership for $205 to get member prices.
+                    <div className="flex items-center">
+                        <input type="checkbox" className="form-checkbox text-indigo-600" />
+                        <label className="ml-2 text-gray-700"> Not an AAPC Member? Add AAPC Membership for $205 to get member prices.
                         </label>
                     </div>
                     <div className='my-5'>
-                        <Link to="cart" class="bg-footsky hover:bg-footsky text-white font-bold py-2 px-4 rounded ml-2 w-56">Learn More</Link>
+                        <Link to="cart" className="bg-footsky hover:bg-footsky text-white font-bold py-2 px-4 rounded ml-2 w-56">Learn More</Link>
                     </div>
-                    <div class="grid place-items-center mt-10">
-                        <div class="sm:w-full w-full justify-center mx-auto ">
-                            <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 w-100 gap-8">
-                                <div class="bg-slate-200 p-5">
-                                    <p class="text-lg">For group purchases or to inquire about in-person training, please call 844-825-1679 or have us call you.</p>
+                    <div className="grid place-items-center mt-10">
+                        <div className="sm:w-full w-full justify-center mx-auto ">
+                            <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 w-100 gap-8">
+                                <div className="bg-slate-200 p-5">
+                                    <p className="text-lg">For group purchases or to inquire about in-person training, please call 844-825-1679 or have us call you.</p>
                                 </div>
-                                <div class="bg-slate-200 p-5">
-                                    <p class="text-lg">For individual purchases, questions, or technical issues, please call 800-626-2633 or have us call you.</p>
+                                <div className="bg-slate-200 p-5">
+                                    <p className="text-lg">For individual purchases, questions, or technical issues, please call 800-626-2633 or have us call you.</p>
                                 </div>
                             </div>
                         </div>

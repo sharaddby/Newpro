@@ -104,7 +104,7 @@ const Workshops = () => {
                         <div>
                             {activeSubTab === 1 && <div>
                                 <div className="sm:w-100 w-100 justify-center mx-auto">
-                                    <h4 className="text-2xl text-green-900 font-bold mb-3">Virtual Workshops: Classroom Learning Without the Classroom</h4>
+                                    <h4 className="text-2xl text-green-900 font-bold mb-3">Virtual Workshops: classNameroom Learning Without the classNameroom</h4>
                                     <p>Health care professionals are obligated to stay current in their profession. This includes
                                         continuing education in their respective discipline as well as keeping up with the latest
                                         medical coding updates, compliance rules, and government regulations. AAPC supports its

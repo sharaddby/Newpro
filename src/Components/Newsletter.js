@@ -542,8 +542,8 @@ const Newsletter = () => {
                                 </div>
                             </div>}
                             {activeSubTab === 2 && <div>
-                                <div class="grid place-items-center">
-                                    <div class="lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+                                <div className="grid place-items-center">
+                                    <div className="lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
                                         <h3 className='text-3xl'>Medical Coding Book Bundles + Codify by AAPC</h3>
                                         <div className="grid 2xl:grid-cols-6 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-3 grid-cols-3 space-x-1 mt-5">
                                             <button
@@ -599,7 +599,7 @@ const Newsletter = () => {
                                         <div className="mt-4">
                                             {activeTab === 'tab1' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -639,7 +639,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab2' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -679,7 +679,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab3' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -720,7 +720,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab4' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -761,7 +761,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab5' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -802,7 +802,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab6' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -843,7 +843,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab7' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -887,8 +887,8 @@ const Newsletter = () => {
                                 </div>
                             </div>}
                             {activeSubTab === 3 && <div>
-                                <div class="grid place-items-center">
-                                    <div class="lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+                                <div className="grid place-items-center">
+                                    <div className="lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
                                         <h3 className='text-3xl'>Medical Coding Book Bundles + Codify by AAPC</h3>
                                         <div className="grid 2xl:grid-cols-6 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-3 grid-cols-3 space-x-1 mt-5">
                                             <button
@@ -944,7 +944,7 @@ const Newsletter = () => {
                                         <div className="mt-4">
                                             {activeTab === 'tab1' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -984,7 +984,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab2' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -1024,7 +1024,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab3' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -1065,7 +1065,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab4' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -1106,7 +1106,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab5' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -1147,7 +1147,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab6' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -1188,7 +1188,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab7' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -1232,8 +1232,8 @@ const Newsletter = () => {
                                 </div>
                             </div>}
                             {activeSubTab === 4 && <div>
-                                <div class="grid place-items-center">
-                                    <div class="lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+                                <div className="grid place-items-center">
+                                    <div className="lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
                                         <h3 className='text-3xl'>Medical Coding Book Bundles + Codify by AAPC</h3>
                                         <div className="grid 2xl:grid-cols-6 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-3 grid-cols-3 space-x-1 mt-5">
                                             <button
@@ -1289,7 +1289,7 @@ const Newsletter = () => {
                                         <div className="mt-4">
                                             {activeTab === 'tab1' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -1329,7 +1329,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab2' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -1369,7 +1369,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab3' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -1410,7 +1410,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab4' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -1451,7 +1451,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab5' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -1492,7 +1492,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab6' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -1533,7 +1533,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab7' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -1577,8 +1577,8 @@ const Newsletter = () => {
                                 </div>
                             </div>}
                             {activeSubTab === 5 && <div>
-                                <div class="grid place-items-center">
-                                    <div class="lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+                                <div className="grid place-items-center">
+                                    <div className="lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
                                         <h3 className='text-3xl'>Medical Coding Book Bundles + Codify by AAPC</h3>
                                         <div className="grid 2xl:grid-cols-6 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-3 grid-cols-3 space-x-1 mt-5">
                                             <button
@@ -1634,7 +1634,7 @@ const Newsletter = () => {
                                         <div className="mt-4">
                                             {activeTab === 'tab1' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -1674,7 +1674,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab2' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -1714,7 +1714,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab3' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -1755,7 +1755,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab4' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -1796,7 +1796,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab5' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -1837,7 +1837,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab6' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -1878,7 +1878,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab7' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -1922,8 +1922,8 @@ const Newsletter = () => {
                                 </div>
                             </div>}
                             {activeSubTab === 6 && <div>
-                                <div class="grid place-items-center">
-                                    <div class="lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+                                <div className="grid place-items-center">
+                                    <div className="lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
                                         <h3 className='text-3xl'>Medical Coding Book Bundles + Codify by AAPC</h3>
                                         <div className="grid 2xl:grid-cols-6 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-3 grid-cols-3 space-x-1 mt-5">
                                             <button
@@ -1979,7 +1979,7 @@ const Newsletter = () => {
                                         <div className="mt-4">
                                             {activeTab === 'tab1' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -2019,7 +2019,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab2' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -2059,7 +2059,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab3' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -2100,7 +2100,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab4' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -2141,7 +2141,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab5' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -2182,7 +2182,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab6' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -2223,7 +2223,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab7' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -2267,8 +2267,8 @@ const Newsletter = () => {
                                 </div>
                             </div>}
                             {activeSubTab === 7 && <div>
-                                <div class="grid place-items-center">
-                                    <div class="lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+                                <div className="grid place-items-center">
+                                    <div className="lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
                                         <h3 className='text-3xl'>Medical Coding Book Bundles + Codify by AAPC</h3>
                                         <div className="grid 2xl:grid-cols-6 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-3 grid-cols-3 space-x-1 mt-5">
                                             <button
@@ -2324,7 +2324,7 @@ const Newsletter = () => {
                                         <div className="mt-4">
                                             {activeTab === 'tab1' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -2364,7 +2364,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab2' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -2404,7 +2404,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab3' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -2445,7 +2445,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab4' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -2486,7 +2486,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab5' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -2527,7 +2527,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab6' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -2568,7 +2568,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab7' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -2612,8 +2612,8 @@ const Newsletter = () => {
                                 </div>
                             </div>}
                             {activeSubTab === 8 && <div>
-                                <div class="grid place-items-center">
-                                    <div class="lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+                                <div className="grid place-items-center">
+                                    <div className="lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
                                         <h3 className='text-3xl'>Medical Coding Book Bundles + Codify by AAPC</h3>
                                         <div className="grid 2xl:grid-cols-6 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-3 grid-cols-3 space-x-1 mt-5">
                                             <button
@@ -2669,7 +2669,7 @@ const Newsletter = () => {
                                         <div className="mt-4">
                                             {activeTab === 'tab1' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -2709,7 +2709,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab2' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -2749,7 +2749,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab3' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -2790,7 +2790,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab4' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -2831,7 +2831,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab5' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -2872,7 +2872,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab6' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -2913,7 +2913,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab7' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -2957,8 +2957,8 @@ const Newsletter = () => {
                                 </div>
                             </div>}
                             {activeSubTab === 9 && <div>
-                                <div class="grid place-items-center">
-                                    <div class="lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+                                <div className="grid place-items-center">
+                                    <div className="lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
                                         <h3 className='text-3xl'>Medical Coding Book Bundles + Codify by AAPC</h3>
                                         <div className="grid 2xl:grid-cols-6 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-3 grid-cols-3 space-x-1 mt-5">
                                             <button
@@ -3014,7 +3014,7 @@ const Newsletter = () => {
                                         <div className="mt-4">
                                             {activeTab === 'tab1' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -3054,7 +3054,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab2' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -3094,7 +3094,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab3' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -3135,7 +3135,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab4' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -3176,7 +3176,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab5' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -3217,7 +3217,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab6' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -3258,7 +3258,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab7' && (
                                                 <div className=" bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2 px-16">
                                                             <div className="bg-white mt-2">
                                                                 <img src="../book.png" alt="gh" className="w-full" />
@@ -4207,8 +4207,8 @@ const Newsletter = () => {
 
                             </div>}
                             {activeSubTab === 2 && <div>
-                                <div class="grid place-items-center">
-                                    <div class="lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+                                <div className="grid place-items-center">
+                                    <div className="lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
                                         <h3 className='text-3xl mb-5'>Online Practice Exams</h3>
                                         <p className="text-md">Are you really ready? Don’t overestimate, or worse, underestimate the difficulty of your exam. Get familiar with the format, questions, and time constraints before your exam and improve your chances of passing on your first try.</p>
                                         <p className="text-md p-5">"I have been taking the practice exams. They are just as hard as the real thing and are a great benefit. I went back and corrected any of my mistakes and found my only problem is going slow enough to be thorough. I would recommend them to anyone. "</p>
@@ -4295,7 +4295,7 @@ const Newsletter = () => {
                                         <div className="mt-4">
                                             {activeTab === 'tab1' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="col-span-3">
                                                                 <h4 className="text-2xl">CPC® Online Practice Exams</h4>
@@ -4344,7 +4344,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab2' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="col-span-3">
                                                                 <h4 className="text-2xl">CPC® Online Practice Exams</h4>
@@ -4393,7 +4393,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab3' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="col-span-3">
                                                                 <h4 className="text-2xl">CPC® Online Practice Exams</h4>
@@ -4442,7 +4442,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab4' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="col-span-3">
                                                                 <h4 className="text-2xl">CPC® Online Practice Exams</h4>
@@ -4491,7 +4491,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab5' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="col-span-3">
                                                                 <h4 className="text-2xl">CPC® Online Practice Exams</h4>
@@ -4540,7 +4540,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab6' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="col-span-3">
                                                                 <h4 className="text-2xl">CPC® Online Practice Exams</h4>
@@ -4589,7 +4589,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab7' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="col-span-3">
                                                                 <h4 className="text-2xl">CPC® Online Practice Exams</h4>
@@ -4638,7 +4638,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab8' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="col-span-3">
                                                                 <h4 className="text-2xl">CPC® Online Practice Exams</h4>
@@ -4666,7 +4666,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab9' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             <div className="col-span-3">
                                                                 <h4 className="text-2xl">CPC® Online Practice Exams</h4>
@@ -4694,7 +4694,7 @@ const Newsletter = () => {
                                             )}
                                             {activeTab === 'tab10' && (
                                                 <div className="bg-white rounded-lg shadow">
-                                                    <div class="grid place-items-center">
+                                                    <div className="grid place-items-center">
                                                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-2">
                                                             
                                                             </div>

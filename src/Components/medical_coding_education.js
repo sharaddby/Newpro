@@ -17,17 +17,17 @@ const tabs = [
     {
         label: 'Search for CEUs',
         content: <div>
-            <div class="sm:w-11/12 w-100 justify-center mx-auto">
+            <div className="sm:w-11/12 w-100 justify-center mx-auto">
                     <img src="../2023_july_2024_promos_dl-930x150-px.webp" alt="hrof" />
-                    <h4 class="text-2xl text-green-900 font-bold">Continuing Education Units (CEUs)</h4>
+                    <h4 className="text-2xl text-green-900 font-bold">Continuing Education Units (CEUs)</h4>
                     <p>Health care professionals are obligated to stay current in their profession. This includes
                         continuing education in their respective discipline as well as keeping up with the latest
                         medical coding updates, compliance rules, and government regulations. AAPC supports its
                         members to maintain a distinctive edge in their health care career by providing a wide
-                        variety of topics and subject matter delivered live or on demand, in classrooms or over the
+                        variety of topics and subject matter delivered live or on demand, in classNamerooms or over the
                         web.</p>
                     <p>For questions about approved content, CEU requirements and how and when to submit CEUs, see
-                        our CEU <span class="text-green-900">Information page.</span></p>
+                        our CEU <span className="text-green-900">Information page.</span></p>
                     <div className='bg-gray-300'>
                         <div className="sm:w-full w-full justify-center mx-auto mt-16 mb-16">
                             <div className="grid xxl:grid-cols-5 xl:grid-cols-5 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 w-100">     

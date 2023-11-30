@@ -74,7 +74,7 @@ const Even = () => {
                                 <p> 3. Cervical somatic dysfunction</p>
                                 <p><b>P</b>:The plan at this time is to send her for physical therapy, three times a week for four weeks for cervical soft tissue muscle massage, as well as upper dorsal. We’ll recheck her in one month, sooner if needed.</p>
                                 <p className='text-md'>Online curriculum will include:</p>
-                                <p class="text-gray-600 hover:text-blue-500">This is a paragraph with a hover effect.</p>
+                                <p className="text-gray-600 hover:text-blue-500">This is a paragraph with a hover effect.</p>
                             </div>
                             <div className='py-2 bg-gray-300'>
                                 <h6 className='text-lg text-center font-semibold'>ICD-10-CM Coding</h6>
@@ -119,13 +119,13 @@ const Even = () => {
                                 <h6 className='text-lg font-semibold pl-5'>ICD-10 Code Conversion</h6>
                             </div>
                             <div className='py-2 bg-gray-300'>
-                                <label class="inline-flex items-center mx-5">
-                                    <input type="checkbox" class="form-checkbox text-indigo-600 h-5 w-5"/>
-                                    <span class="ml-2 text-gray-700">ICD-9 to ICD-10</span>
+                                <label className="inline-flex items-center mx-5">
+                                    <input type="checkbox" className="form-checkbox text-indigo-600 h-5 w-5"/>
+                                    <span className="ml-2 text-gray-700">ICD-9 to ICD-10</span>
                                 </label>
-                                <label class="inline-flex items-center">
-                                    <input type="checkbox" class="form-checkbox text-indigo-600 h-5 w-5"/>
-                                    <span class="ml-2 text-gray-700">ICD-10 to ICD-9</span>
+                                <label className="inline-flex items-center">
+                                    <input type="checkbox" className="form-checkbox text-indigo-600 h-5 w-5"/>
+                                    <span className="ml-2 text-gray-700">ICD-10 to ICD-9</span>
                                 </label>
                             </div>
                             

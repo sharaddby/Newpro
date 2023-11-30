@@ -18,7 +18,7 @@ function Webinars() {
                     <div className="2xl:w-1/4 xl:w-1/4 lg:1/3 md:w-1/3 sm:w-full w-full">
                         <div className="bg-slate-200 p-1 hover:shadow-2xl">
                             <div className="relative inline-block text-left bg-gray-300 w-full">
-                                <p class="p-2 bg-teal-500 text-white text-xl">Medical Coding Certification</p>
+                                <p className="p-2 bg-teal-500 text-white text-xl">Medical Coding Certification</p>
                                 <hr className="h-1 bg-white"/>
                                 <button onClick={toggleServices1} className="text-gray-700 hover:text-gray-900 focus:outline-none h-12">
                                     Medical Coding Certification

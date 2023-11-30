@@ -257,7 +257,7 @@ const box = () => {
       <div className="grid place-items-center mt-5">
         <div className="flex flex-col  md:flex-row 2xl:w-8/12 xl:w-8/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 gap-8">
           <div className="md:w-1/2 w-full">
-            <img src={"./img/all.png"} alt="logo" />
+            <img src={"../ris.webp"} alt="logo" />
           </div>
           <div className="md:w-1/2 w-full">
             <div className="bg-slate-200 p-5 hover:shadow-2xl">

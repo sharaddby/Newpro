@@ -260,7 +260,7 @@ const Networking = () => {
                                             <p className='text-lg'>Local Chapter officer contact information is listed for the purposes of
                                                 engaging with AAPC on a local level. Under no circumstances should this information be used for soliciting.</p>
 
-                                            <table class="table-auto">
+                                            <table className="table-auto">
                                                 <thead>
                                                     <tr>
                                                         <th className='col-span-2'>City</th>

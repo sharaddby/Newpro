@@ -6,13 +6,13 @@ import Bluebanner from './Bluebanner';
 const Training = () => {
     return (
         <div>
-            <div className="grid w-full bg-green-800 bg-cover bg-center h-96" style={{ backgroundImage: 'url("../hbg.webp")' }}>
-                <div className="2xl:w-8/12 xl:w-8/12 lg:w-8/12 md:w-8/12 sm:w-8/12 w-full justify-center mx-auto">
-                    <p className="text-white pt-24">TRAINING</p>
-                    <p className="text-white lg:text-4xl sm:text-3xl">people learn best in different ways.<br /> We let you choose yours.</p>
+            <div className="grid w-full bg-green-800 bg-cover bg-center" style={{ backgroundImage: 'url("../ris.webp")' }}>
+                <div className="2xl:w-8/12 xl:w-8/12 lg:w-8/12 md:w-8/12 sm:w-8/12 w-8/12 justify-center mx-auto py-28">
+                    <p className="text-white">TRAINING</p>
+                    <h3 className="text-white text-3xl">people learn best in different ways.<br /> We let you choose yours.</h3>
                 </div>
             </div>
-            <div className="grid place-items-center">
+           <div className="grid place-items-center">
                 <div className="w-full justify-center mx-auto bg-gray-200">
                     <div className="flex flex-col 2xl:w-8/12 xl:w-full lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
                         <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3 w-100 bg-gray-200 mt-0">

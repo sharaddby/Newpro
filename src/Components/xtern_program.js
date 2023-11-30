@@ -3,10 +3,10 @@ import React from 'react'
 const xtern_program = () => {
   return (
     <div>
-        <div class="grid w-full bg-green-800 bg-cover bg-center" style={{ backgroundImage: 'url("../ris.webp")' }}>
-            <div class="2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto py-28">
-                <p class="text-white pt-24">AAPC XTERN PROGRAM</p>
-                    <p class="text-white text-4xl">
+        <div className="grid w-full bg-green-800 bg-cover bg-center" style={{ backgroundImage: 'url("../ris.webp")' }}>
+            <div className="2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto py-28">
+                <p className="text-white pt-24">AAPC XTERN PROGRAM</p>
+                    <p className="text-white text-4xl">
                     Discover a goldmine of potential<br/> 
                     talent and build a powerhouse <br/>
                     team with the AAPC Xtern Program.</p>

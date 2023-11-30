@@ -228,48 +228,48 @@ const corporate_membership = () => {
                     </div>
                 </div>
             </div>
-            <div class="grid place-items-center mt-10 px-10 py-10">
-                <div class="2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
-                    <div class="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 w-100 justify-center mx-auto">
+            <div className="grid place-items-center mt-10 px-10 py-10">
+                <div className="2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+                    <div className="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 w-100 justify-center mx-auto">
                         <Slider1 />
                     </div>
                 </div>
             </div>
-            <div class="grid place-items-center mt-10">
-                <div class="2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto mt-10 mb-10">
-                    <h1 class="text-3xl">You might also like</h1>
-                    <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3 w-100 gap-4">
-                        <div class="pt-6 max-h-full">
-                            <img src="../corp.webp" alt="hello" class="h-72 w-full" />
-                            <div class="bg-slate-200 hover:bg-slate-300 py-10 p-10">
-                                <p class="text-darksky">E-BRIEF</p>
-                                <p class="text-2xl">Meet The Team: Get the Revenue Cycle Expertise Your Business Needs, Now
+            <div className="grid place-items-center mt-10">
+                <div className="2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto mt-10 mb-10">
+                    <h1 className="text-3xl">You might also like</h1>
+                    <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3 w-100 gap-4">
+                        <div className="pt-6 max-h-full">
+                            <img src="../corp.webp" alt="hello" className="h-72 w-full" />
+                            <div className="bg-slate-200 hover:bg-slate-300 py-10 p-10">
+                                <p className="text-darksky">E-BRIEF</p>
+                                <p className="text-2xl">Meet The Team: Get the Revenue Cycle Expertise Your Business Needs, Now
                                 </p>
                                 <p>From large-scale outsourcing to a professional opinion of your revenue process, our
                                     nationwide network of certified</p>
-                                <p class="text-darksky font-bold mt-3 mb-5">LEARN MORE</p>
+                                <p className="text-darksky font-bold mt-3 mb-5">LEARN MORE</p>
                             </div>
                         </div>
-                        <div class="pt-6 max-h-full">
-                            <img src="../corp.webp" alt="hello" class="h-72 w-full" />
-                            <div class="bg-slate-200 hover:bg-slate-300 py-10 p-10">
-                                <p class="text-darksky">E-BRIEF</p>
-                                <p class="text-2xl">Meet The Team: Get the Revenue Cycle Expertise Your Business Needs, Now
+                        <div className="pt-6 max-h-full">
+                            <img src="../corp.webp" alt="hello" className="h-72 w-full" />
+                            <div className="bg-slate-200 hover:bg-slate-300 py-10 p-10">
+                                <p className="text-darksky">E-BRIEF</p>
+                                <p className="text-2xl">Meet The Team: Get the Revenue Cycle Expertise Your Business Needs, Now
                                 </p>
                                 <p>From large-scale outsourcing to a professional opinion of your revenue process, our
                                     nationwide network of certified</p>
-                                <p class="text-darksky font-bold mt-3 mb-5">LEARN MORE</p>
+                                <p className="text-darksky font-bold mt-3 mb-5">LEARN MORE</p>
                             </div>
                         </div>
-                        <div class="pt-6 max-h-full">
-                            <img src="../corp.webp" alt="hello" class="h-72 w-full" />
-                            <div class="bg-slate-200 hover:bg-slate-300 py-10 p-10">
-                                <p class="text-darksky">E-BRIEF</p>
-                                <p class="text-2xl">Meet The Team: Get the Revenue Cycle Expertise Your Business Needs, Now
+                        <div className="pt-6 max-h-full">
+                            <img src="../corp.webp" alt="hello" className="h-72 w-full" />
+                            <div className="bg-slate-200 hover:bg-slate-300 py-10 p-10">
+                                <p className="text-darksky">E-BRIEF</p>
+                                <p className="text-2xl">Meet The Team: Get the Revenue Cycle Expertise Your Business Needs, Now
                                 </p>
                                 <p>From large-scale outsourcing to a professional opinion of your revenue process, our
                                     nationwide network of certified</p>
-                                <p class="text-darksky font-bold mt-3 mb-5">LEARN MORE</p>
+                                <p className="text-darksky font-bold mt-3 mb-5">LEARN MORE</p>
                             </div>
                         </div>
                     </div>

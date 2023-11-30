@@ -8,10 +8,27 @@ const Riskcon = () => {
     };
     return (
         <div>
-            <div class="grid w-full bg-green-800 bg-cover bg-center" style={{ backgroundImage: 'url("../ris.webp")' }}>
-                <div class="2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto py-48">
-                    <p class="text-white pt-24">TRAINING</p>
-                    <p class="text-white text-5xl">people learn best in different ways.<br /> We let you choose yours.</p>
+            <div className="grid w-full bg-green-800 bg-cover bg-center" style={{ backgroundImage: 'url("../ris.webp")' }}>
+                <div className="2xl:w-8/12 xl:w-8/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto py-40">
+                    <p className="text-white pt-24">RISKCON</p>
+                    <p className="text-white lg:text-5xl sm:text-3xl text-2xl">Thank you for joining <br/>RISKCON June 27-28, 2023</p>
+                </div>
+            </div>
+            <div className="grid place-items-center">
+                <div className="w-full justify-center mx-auto bg-gray-200">
+                    <div className="flex flex-col 2xl:w-8/12 xl:w-full lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+                        <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3 w-100 bg-gray-200 mt-0">
+                            <div className="py-5 col-span-2">
+                                <p className="text-gray-700 text-lg text-center">
+                                    Take 50% off everything you need to get certified. Pay over time starting at 0% financing.</p>
+                            </div>
+                            <div className="sm:pt-4">
+                                <button className="text-green-700 hover:text-green-800 font-bold py-2 px-4 rounded text-lg">
+                                    Save Now<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" className="svg-inline--fa fa-angle-right fa-fw text-sm h-5 w-6 inline-block text-green-800" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z"></path></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className='grid place-items-center mt-5'>
@@ -59,41 +76,41 @@ const Riskcon = () => {
                                             web.</p>
                                         <p>For questions about approved content, CEU requirements and how and when to submit CEUs, see
                                             our CEU <span className="text-green-900">Information page.</span></p>
-                                        <div class="grid sm:w-full w-full justify-center mx-auto">
+                                        <div className="grid sm:w-full w-full justify-center mx-auto">
                                             <div className='flex'>
-                                                <div class="grid md:grid-cols-2 sm:grid-cols-1">
-                                                    <div class="bg-slate-100 pl-2">
+                                                <div className="grid md:grid-cols-2 sm:grid-cols-1">
+                                                    <div className="bg-slate-100 pl-2">
                                                         <img src="../400.webp" alt="..." />
                                                     </div>
-                                                    <div class="bg-slate-100 p-5">
-                                                        <p class="text-md text-lightsky">RISKCON 2023’s </p>
-                                                        <p class="text-md">interactive networking lunch allows you to get to know your community</p>
-                                                        <p class="text-md text-lightsky mt-2">Alhabibi </p>
+                                                    <div className="bg-slate-100 p-5">
+                                                        <p className="text-md text-lightsky">RISKCON 2023’s </p>
+                                                        <p className="text-md">interactive networking lunch allows you to get to know your community</p>
+                                                        <p className="text-md text-lightsky mt-2">Alhabibi </p>
                                                     </div>
                                                 </div>
-                                                <div class="grid md:grid-cols-2 sm:grid-cols-1">
-                                                    <div class="bg-slate-100 pl-2">
+                                                <div className="grid md:grid-cols-2 sm:grid-cols-1">
+                                                    <div className="bg-slate-100 pl-2">
                                                         <img src="../400.webp" alt="..." />
                                                     </div>
-                                                    <div class="bg-slate-100 p-5">
-                                                        <p class="text-md text-lightsky">RISKCON 2023’s </p>
-                                                        <p class="text-md">interactive networking lunch allows you to get to know your community.</p>
-                                                        <p class="text-md text-lightsky mt-2">Alhabibi </p>
+                                                    <div className="bg-slate-100 p-5">
+                                                        <p className="text-md text-lightsky">RISKCON 2023’s </p>
+                                                        <p className="text-md">interactive networking lunch allows you to get to know your community.</p>
+                                                        <p className="text-md text-lightsky mt-2">Alhabibi </p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="grid sm:w-full w-full justify-center mx-auto my-10">
-                                            <div class="grid md:grid-cols-2 sm:grid-cols-1">
-                                                <div class="pl-2">
+                                        <div className="grid sm:w-full w-full justify-center mx-auto my-10">
+                                            <div className="grid md:grid-cols-2 sm:grid-cols-1">
+                                                <div className="pl-2">
                                                     <img src="../bhrt.webp" alt="..." />
                                                 </div>
-                                                <div class="px-5">
-                                                    <p class="text-md text-lightsky">BRING YOUR TEAM TO RISKCON 2024</p>
+                                                <div className="px-5">
+                                                    <p className="text-md text-lightsky">BRING YOUR TEAM TO RISKCON 2024</p>
                                                     <h3 className="text-3xl">RISKCON packages for teams</h3>
-                                                    <p class="text-lg">Our virtual events offer your team a convenient way to stay current on specialty-specific topics. 
+                                                    <p className="text-lg">Our virtual events offer your team a convenient way to stay current on specialty-specific topics. 
                                                             Join our waitlist to be notified once 2024 registration opens, so you can take advantage of our lowest prices of the season.  </p>
-                                                    <p class="text-md text-lightsky mt-2">Alhabibi </p>
+                                                    <p className="text-md text-lightsky mt-2">Alhabibi </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -114,41 +131,41 @@ const Riskcon = () => {
                                             web.</p>
                                         <p>For questions about approved content, CEU requirements and how and when to submit CEUs, see
                                             our CEU <span className="text-green-900">Information page.</span></p>
-                                        <div class="grid sm:w-full w-full justify-center mx-auto">
+                                        <div className="grid sm:w-full w-full justify-center mx-auto">
                                             <div className='flex'>
-                                                <div class="grid md:grid-cols-2 sm:grid-cols-1">
-                                                    <div class="bg-slate-100 pl-2">
+                                                <div className="grid md:grid-cols-2 sm:grid-cols-1">
+                                                    <div className="bg-slate-100 pl-2">
                                                         <img src="../400.webp" alt="..." />
                                                     </div>
-                                                    <div class="bg-slate-100 p-5">
-                                                        <p class="text-md text-lightsky">RISKCON 2023’s </p>
-                                                        <p class="text-md">interactive networking lunch allows you to get to know your community</p>
-                                                        <p class="text-md text-lightsky mt-2">Alhabibi </p>
+                                                    <div className="bg-slate-100 p-5">
+                                                        <p className="text-md text-lightsky">RISKCON 2023’s </p>
+                                                        <p className="text-md">interactive networking lunch allows you to get to know your community</p>
+                                                        <p className="text-md text-lightsky mt-2">Alhabibi </p>
                                                     </div>
                                                 </div>
-                                                <div class="grid md:grid-cols-2 sm:grid-cols-1">
-                                                    <div class="bg-slate-100 pl-2">
+                                                <div className="grid md:grid-cols-2 sm:grid-cols-1">
+                                                    <div className="bg-slate-100 pl-2">
                                                         <img src="../400.webp" alt="..." />
                                                     </div>
-                                                    <div class="bg-slate-100 p-5">
-                                                        <p class="text-md text-lightsky">RISKCON 2023’s </p>
-                                                        <p class="text-md">interactive networking lunch allows you to get to know your community.</p>
-                                                        <p class="text-md text-lightsky mt-2">Alhabibi </p>
+                                                    <div className="bg-slate-100 p-5">
+                                                        <p className="text-md text-lightsky">RISKCON 2023’s </p>
+                                                        <p className="text-md">interactive networking lunch allows you to get to know your community.</p>
+                                                        <p className="text-md text-lightsky mt-2">Alhabibi </p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="grid sm:w-full w-full justify-center mx-auto my-10">
-                                            <div class="grid md:grid-cols-2 sm:grid-cols-1">
-                                                <div class="pl-2">
+                                        <div className="grid sm:w-full w-full justify-center mx-auto my-10">
+                                            <div className="grid md:grid-cols-2 sm:grid-cols-1">
+                                                <div className="pl-2">
                                                     <img src="../bhrt.webp" alt="..." />
                                                 </div>
-                                                <div class="px-5">
-                                                    <p class="text-md text-lightsky">BRING YOUR TEAM TO RISKCON 2024</p>
+                                                <div className="px-5">
+                                                    <p className="text-md text-lightsky">BRING YOUR TEAM TO RISKCON 2024</p>
                                                     <h3 className="text-3xl">RISKCON packages for teams</h3>
-                                                    <p class="text-lg">Our virtual events offer your team a convenient way to stay current on specialty-specific topics. 
+                                                    <p className="text-lg">Our virtual events offer your team a convenient way to stay current on specialty-specific topics. 
                                                             Join our waitlist to be notified once 2024 registration opens, so you can take advantage of our lowest prices of the season.  </p>
-                                                    <p class="text-md text-lightsky mt-2">Alhabibi </p>
+                                                    <p className="text-md text-lightsky mt-2">Alhabibi </p>
                                                 </div>
                                             </div>
                                         </div>

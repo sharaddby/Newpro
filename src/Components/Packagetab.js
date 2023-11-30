@@ -38,9 +38,9 @@ const Packagetab = () => {
             <div className="mt-4">
                 {activeTab === 1 &&
                     <div>
-                        <div class="grid place-items-center">
-                            <div class="2xl:w-12/12 xl:12/12 lg:12/12 w-full justify-center mx-auto">
-                                <div class="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 w-100">
+                        <div className="grid place-items-center">
+                            <div className="2xl:w-12/12 xl:12/12 lg:12/12 w-full justify-center mx-auto">
+                                <div className="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 w-100">
                                     <h6 className='text-xl'>Highly Recommended</h6>
                                     <ul>
                                         <li>Anatomy online course and Medical Terminology online course or prior knowledge in both of

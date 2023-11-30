@@ -34,8 +34,8 @@ const Instructor = () => {
                 </div>
             </div>
             <div class="grid place-items-center mt-16">
-                <div class="2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
-                    <div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 w-100 gap-8">
+                <div class="2xl:w-8/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto">
+                    <div class="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 w-100 gap-8">
                         <div class="bg-slate-200 p-5">
                             <h1 class="text-3xl mb-5">Find the right certification in medical coding.</h1>
                             <p class="text-lg text-why">Exploring a career in medical coding and billing raises questions,
@@ -62,8 +62,8 @@ const Instructor = () => {
                 </div>
             </div>
             <div class="grid place-items-center mt-10">
-                <div class="2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto ">
-                    <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 w-100 gap-8">
+                <div class="2xl:w-8/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto ">
+                    <div class="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 w-100 gap-8">
                         <div class="bg-slate-200 p-5">
                             <h1 class="text-3xl mb-5">Find the right certification in medical coding.</h1>
                             <p class="text-lg">Exploring a career in medical coding and billing raises questions, one being
@@ -113,7 +113,7 @@ const Instructor = () => {
             </div>
             <div class="grid place-items-center mt-10px-10 py-10">
                 <div class="2xl:w-9/12 xl:w-9/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
-                    <div class="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 w-100 justify-center mx-auto">
+                    <div class="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 w-100 justify-center mx-auto">
                         <Slider3 />
                     </div>
                 </div>
