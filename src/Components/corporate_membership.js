@@ -3,16 +3,11 @@ import Slider1 from './Slider1'
 const corporate_membership = () => {
     return (
         <div>
-            <div className="grid w-full mx-auto">
-                <img src="../banner.jpg" alt="tt" className="w-full hidden lg:inline-block" />
-                <p
-                    className="w-full text-sm text-blue-600 absolute 2xl:mt-52 2xl:pl-52 xl:mt-44 xl:pl-44 lg:mt-36 lg:pl-36 sm:mt-16 lg:bg-transparent md:bg-gray-300 sm:bg-gray-300">
-                    INSTRUCTOR CERTIFICATION</p>
-                <h1 className="w-full 2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl
-             text-blue-600 absolute 2xl:mt-56 2xl:pl-52 xl:mt-48 xl:pl-44 lg:mt-40 lg:pl-36 
-             md:pt-16 md:h-52 sm:h-52 sm:mt-20 lg:bg-transparent md:bg-gray-300 sm:bg-gray-300">
-                    Prepare the next generation <br />of healthcare
-                    professionals by <br /> becoming an AAPC-Approved Instructor.</h1>
+            <div className="grid w-full bg-green-800 bg-cover bg-center" style={{ backgroundImage: 'url("../ris.webp")' }}>
+                <div className="2xl:w-8/12 xl:w-8/12 lg:w-8/12 md:w-8/12 sm:w-8/12 w-8/12 justify-center mx-auto py-20">
+                    <p className="text-white">Corporate membership</p>
+                    <h3 className="text-white text-3xl">AAPC empowers you to achieve your dreams<br /> with certifications for every <br />stage of your career.</h3>
+                </div>
             </div>
             <div className="grid place-items-center mt-5">
                 <div className="flex flex-col  md:flex-row 2xl:w-8/12 xl:w-8/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 gap-8">

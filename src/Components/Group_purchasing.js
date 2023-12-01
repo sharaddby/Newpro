@@ -4,8 +4,11 @@ import Bluebanner from './Bluebanner';
 const Group_purchasing = () => {
     return (
         <div>
-            <div className="grid w-full">
-                <img src="../banner.jpg" alt="..." className="w-full" />
+            <div className="grid w-full bg-green-800 bg-cover bg-center" style={{ backgroundImage: 'url("../ris.webp")' }}>
+                <div className="2xl:w-8/12 xl:w-8/12 lg:w-8/12 md:w-8/12 sm:w-8/12 w-8/12 justify-center mx-auto py-20">
+                    <p className="text-white">Groop Perchaging</p>
+                    <h3 className="text-white text-3xl">AAPC empowers you to achieve your dreams<br /> with certifications for every <br />stage of your career.</h3>
+                </div>
             </div>
             <div className="grid place-items-center mt-10">
                 <div className="2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto p-5">

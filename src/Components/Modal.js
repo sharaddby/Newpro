@@ -1,18 +1,22 @@
 import React from 'react';
+import Modal from 'react-modal';
 
-const Modal = ({ isOpen, closeModal, children }) => {
-  if (!isOpen) return null;
-
+const CustomModal = ({ isOpen, closeModal, title, content}) => {
   return (
-    <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center z-50">
-      <div className="bg-white w-1/2 p-6 rounded-lg shadow-lg">
-        <div className="text-right">
-          <button onClick={closeModal}>Close</button>
-        </div>
-        {children}
+    <Modal
+      isOpen={isOpen}
+      onRequestClose={closeModal}
+      className="modal"
+      overlayClassName="modal-overlay"
+      >
+      <div className="modal-header">
+       <h2>{title}</h2>
+        <button onClick={closeModal}>&times;</button>
+        <div className="modal-content">{content}</div>
       </div>
-    </div>
+    </Modal>
   );
 };
 
-export default Modal;
+export default CustomModal;
+
