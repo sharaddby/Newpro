@@ -71,6 +71,9 @@ import Practicod from './Components/Practicod';
 import xtern_program from './Components/xtern_program';
 import group_webinars from './Components/group_webinars';
 import exam_prep_deals from './Components/exam_prep_deals';
+import Register from './Components/Register';
+import Signin from './Components/Signin';
+import Forget from './Components/Forget';
 const App = () => {
   return (
     <Router>
@@ -146,6 +149,9 @@ const App = () => {
             <Route path="/xtern_program" component={xtern_program}></Route>
             <Route path="/group_webinars" component={group_webinars}></Route>
             <Route path="/exam_prep_deals" component={exam_prep_deals}></Route>
+            <Route path="/Register" component={Register}></Route>
+            <Route path="/Signin" component={Signin}></Route>
+            <Route path="/Forget" component={Forget}></Route>
           </Switch>
         <Footer/>
       </div>

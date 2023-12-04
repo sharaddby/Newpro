@@ -2,12 +2,11 @@ import React from 'react';
 import Slider2 from './Slider2';
 import Bluefooter from './Bluefooter';
 import { Link } from 'react-router-dom';
+import Banner from './Banner';
 const Curriculum = () => {
     return (
         <div>
-            <div className="grid w-full">
-                <img src="../banner.jpg" alt="..." className="w-full" />
-            </div>
+           <Banner/>
             <div className="grid place-items-center mt-16">
                 <div className="2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
                     <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 w-100 gap-8">

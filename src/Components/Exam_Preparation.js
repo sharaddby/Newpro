@@ -1,15 +1,11 @@
 import React from 'react';
 import Certificattab from './Certificattab';
 import Bluefooter from './Bluefooter';
+import Banner from './Banner';
 const Certifications = () => {
   return (
     <div>
-          <div className="grid w-full bg-green-800 bg-cover bg-center" style={{ backgroundImage: 'url("../ris.webp")' }}>
-                <div className="2xl:w-8/12 xl:w-8/12 lg:w-8/12 md:w-8/12 sm:w-8/12 w-8/12 justify-center mx-auto py-28">
-                    <p className="text-white">Exam Prepration</p>
-                    <h3 className="text-white text-3xl">people learn best in different ways.<br /> We let you choose yours.</h3>
-                </div>
-            </div>
+          <Banner/>
         <div className="grid place-items-center mt-10">
             <div className="2xl:w-8/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto ">
                 <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 w-100 gap-8">
@@ -53,10 +49,10 @@ const Certifications = () => {
               </p>
               <button className="px-12 py-3 rounded-full">
                 <a
-                  href="https://tailwindui.com/documentation"
+                  href="./Fundamentals_of_medicine_course"
                   className="rounded-full text-xl text-teal-900"
                 >
-                  Get Started{" "}
+                 LEARN MORE ABOUT ESSENTIAL TRAINING{" "}
                 </a>
               </button>
             </div>

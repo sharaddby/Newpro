@@ -2,6 +2,7 @@ import { React, useState } from 'react'
 
 const Professional = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [isOpen1, setIsOpen1] = useState(false);
     const toggleDropdown = () => {
         setIsOpen(!isOpen);
     };
@@ -9,7 +10,7 @@ const Professional = () => {
         setIsOpen(false);
     };
     const toggleDropdown1 = () => {
-        setIsOpen(!isOpen);
+        setIsOpen1(!isOpen1);
     };
     const closeDropdown1 = () => {
         setIsOpen(false);
@@ -18,19 +19,19 @@ const Professional = () => {
 
     return (
         <div>
-            <div className="grid 2xl:w-8/12 xl:w-8/12 lg:w-8/12 md:w-full sm:w-full w-full mx-auto">
+            <div className="grid 2xl:w-8/12 xl:w-8/12 lg:w-11/12 md:w-full sm:w-full w-full mx-auto">
                 <h1 className="text-2xl mt-5 mb-5 font-semibold">Personal & Career Development Online Courses</h1>
-                <div className="bg-green-800 h-56">
+                <div className="bg-blue-500 h-56">
                     <p className="relative text-2xl text-white pt-16 pl-16">Learning Never Ends</p>
                     <h1 className="text-lg relative text-white pl-16 mt-5">Stay ahead of the competition, enroll now with AAPC's
                         Personal & Professional Development catalog.</h1>
                 </div>
-                <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 w-100 bg-green-950 h-20">
+                <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 w-100 bg-green-950">
                     <div className="pt-6">
                         <p className=" text-lg text-center text-yellow-700">Personal & Career Development Online Courses</p>
                     </div>
                     <div className="pt-6">
-                        <form className="flex items-center">
+                        <form className="flex items-center mx-5">
                             <label for="voice-search" className="sr-only">Search</label>
                             <div className="relative w-full">
                                 <input type="text"
@@ -38,22 +39,23 @@ const Professional = () => {
                                     placeholder="Search" required />
                             </div>
                             <button type="submit"
-                                className="inline-flex items-center py-2.5 px-16 ml-2 text-lg font-medium text-white bg-blue-700 rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                className="inline-flex items-center py-2 px-8 my-3 ml-2 text-lg font-medium text-white bg-blue-700 rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                 Search
                             </button>
                         </form>
                     </div>
                 </div>
             </div>
-            <div className="grid 2xl:w-8/12 xl:w-8/12 lg:w-full md:w-full sm:w-full w-full justify-center mx-auto">
+            <div className="grid 2xl:w-8/12 xl:w-11/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 justify-center mx-auto">
                 <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-w-full">
-                    <div className="flex items-center">
+                    <div className="flex items-center my-2">
                         <input checked id="checked-checkbox" type="checkbox" value=""
-                            className="w-4 h-4 text-blue-600 bg-gray-200 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />               <label for="checked-checkbox" className="ml-2 text-md font-medium text-gray-900 dark:text-gray-300 mt-5">Not
-                                an AAPC Member? Add an AAPC Membership to get the discounts listed below, or login here. </label>
+                        className="w-4 h-4 text-blue-600 bg-gray-200 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />               
+                        <label for="checked-checkbox" className="ml-2 text-md font-medium text-gray-900 dark:text-gray-300 mt-5">
+                        Not an AAPC Member? Add an AAPC Membership to get the discounts listed below, or login here.</label>
                     </div>
-                    <div className="flex items-center">
-                        <h3 className="px-5">View</h3>
+                    <div className="flex items-center my-2">
+                        <h3 className="px-8">View</h3>
                         <div className="relative inline-block text-left">
                             <button
                                 onClick={toggleDropdown}
@@ -87,7 +89,7 @@ const Professional = () => {
                             )}
                         </div>
                     </div>
-                    <div className="flex items-center">
+                    <div className="flex items-center my-2">
                         <h3 className="px-5">short by</h3>
                         <div className="relative inline-block text-left">
                             <button
@@ -97,12 +99,12 @@ const Professional = () => {
                                 className="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-24 py-3 bg-white text-sm font-medium text-gray-700 focus:outline-none focus:border-blue-300 focus:ring focus:ring-blue-200 active:bg-gray-50 active:text-gray-800"
                                 id="options-menu"
                                 aria-haspopup="true"
-                                aria-expanded={isOpen}
+                                aria-expanded={isOpen1}
                             >
                                 Options
                             </button>
 
-                            {isOpen && (
+                            {isOpen1 && (
                                 <div
                                     className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
                                     onBlur={closeDropdown1}

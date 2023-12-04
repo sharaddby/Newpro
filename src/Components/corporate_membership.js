@@ -1,18 +1,14 @@
 import React from 'react'
 import Slider1 from './Slider1'
+import Banner from './Banner'
 const corporate_membership = () => {
     return (
         <div>
-            <div className="grid w-full bg-green-800 bg-cover bg-center" style={{ backgroundImage: 'url("../ris.webp")' }}>
-                <div className="2xl:w-8/12 xl:w-8/12 lg:w-8/12 md:w-8/12 sm:w-8/12 w-8/12 justify-center mx-auto py-20">
-                    <p className="text-white">Corporate membership</p>
-                    <h3 className="text-white text-3xl">AAPC empowers you to achieve your dreams<br /> with certifications for every <br />stage of your career.</h3>
-                </div>
-            </div>
-            <div className="grid place-items-center mt-5">
+           <Banner/>
+           <div className="grid place-items-center mt-5">
                 <div className="flex flex-col  md:flex-row 2xl:w-8/12 xl:w-8/12 lg:w-11/12 md:w-11/12 sm:w-11/12 w-11/12 gap-8">
                     <div className="md:w-2/3 w-full">
-                        <div className="p-5 hover:shadow-2xl">
+                        <div className="p-5">
                             <h3 className="text-3xl mb-5">
                                 Find the right certification in medical coding.
                             </h3>
