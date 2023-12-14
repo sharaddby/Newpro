@@ -20,14 +20,15 @@
     "react-feather": "^2.0.10",
     "react-icons": "^4.11.0",
     "react-modal": "^3.16.1",
+    "react-redux": "^9.0.4",
     "react-router-dom": "^5.3.4",
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
     "react-tabs": "^6.0.2",
+    "redux": "^5.0.0",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4",
     "webpack-cli": "^5.1.4"
-
   },
   "scripts": {
     "start": "react-scripts start",

@@ -18,6 +18,10 @@ module.exports = {
         'tgreen' : '#82b9af',
         'tblue': '#003764;',
         'twhite':'#fff',
+        'conf':'#018ce1',
+        'theme':'#0548b0',  
+        'grinish':' #6d8737'  
+        
         
       },
     },

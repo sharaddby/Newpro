@@ -11,7 +11,7 @@ import Forget from './Files/Forget';
 import Footer from './Files/Footer';
 import Faq from './Files/Faq';
 import Home from './Files/Home';
-import Nav from './components/Nav';
+import Navbar from './Files/Navbar';
 import Privacy from './Files/Privacy';
 import Register from './Files/Register';
 import Conferencedetail from './Files/Conferencedetail';
@@ -19,7 +19,7 @@ const App = () => {
   return (
     <Router>
       <div>
-        <Nav/>
+        <Navbar/>
           <Switch>
             <Route path="/About" component={About}></Route>
             <Route path="/Api" component={Api}></Route>
